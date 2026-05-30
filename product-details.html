@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details | Vistech | Shree Om Steel</title>
+  <meta name="description" content="View premium bathroom accessory specifications, pricing, and download product PDF from Vistech | Shree Om Steel.">
+  <link rel="canonical" href="https://www.omsteelbath.com/product-details.html">
+  <meta property="og:type" content="product">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.omsteelbath.com/"},{"@type":"ListItem","position":2,"name":"Products","item":"https://www.omsteelbath.com/products.html"},{"@type":"ListItem","position":3,"name":"Product","item":"https://www.omsteelbath.com/product-details.html"}]}</script>
+</head>
+<body>
+   <div id="page-loader">
+    <div class="loader-logo"><img src="assets/images/logo.png" alt="Vistech" style="height: 56px;"></div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Vistech - Shree Om Steel" class="site-logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item dropdown dropdown-mega">
+              <a class="nav-link" href="products.html">Products</a>
+              <div class="mega-menu">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-3 mega-col"><h6>Collections</h6>
+                      <a href="products.html?collection=Kiva">Kiva Series (KV)</a>
+                      <a href="products.html?collection=Rella">Rella Series (RE)</a>
+                      <a href="products.html?collection=Bruna">Bruna Series (BR)</a>
+                      <a href="products.html?collection=Canata">Canata Series (CA)</a>
+                    </div>
+                    <div class="col-md-3 mega-col"><h6>More</h6>
+                      <a href="products.html?collection=Vistech">Vistech Series (500)</a>
+                      <a href="products.html?collection=Kitchen">Kitchen Cutlery</a>
+                      <a href="products.html?category=Soap Dish">Soap Dishes</a>
+                      <a href="products.html?category=Towel Rod">Towel Rods &amp; Racks</a>
+                    </div>
+                    <div class="col-md-3 mega-col"><h6>Quick Links</h6>
+                      <a href="catalogue.html">Download Catalogue</a>
+                      <a href="gallery.html">Gallery</a>
+                      <a href="contact.html">Get Quote</a>
+                    </div>
+                    <div class="col-md-3 mega-col"><h6>Featured</h6>
+                      <a href="product-details.html?id=1">KV-101 Napkin Holder</a>
+                      <a href="product-details.html?id=42">505 Three In One</a>
+                      <a href="products.html">View All 65+ Products</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="catalogue.html">Catalogue</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main id="product-detail-root">
+    <section class="page-banner py-5">
+      <div class="container">
+        <nav aria-label="breadcrumb"><ol class="breadcrumb breadcrumb-custom mb-0"><li class="breadcrumb-item"><a href="index.html">Home</a></li><li class="breadcrumb-item"><a href="products.html">Products</a></li><li class="breadcrumb-item active" id="breadcrumb-product-name">Product</li></ol></nav>
+      </div>
+    </section>
+    <section class="pt-0">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="product-gallery-main mb-3">
+              <img id="pd-main-img" src="" alt="Product" class="cursor-pointer" style="cursor:pointer">
+            </div>
+            <div class="row g-2" id="pd-thumbs"></div>
+            <div id="pd-lightbox-links"></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="product-info-box">
+              <p class="product-collection mb-1" id="pd-collection"></p>
+              <span class="product-series-badge" id="pd-series">Series: �</span>
+              <h1 id="pd-name" class="h2 mt-3 mb-3">Loading...</h1>
+              <p class="product-price-lg" id="pd-price">�</p>
+              <hr style="border-color:var(--border)">
+              <div class="row mb-3"><div class="col-6"><strong class="text-accent">Material</strong><br><span id="pd-material" class="text-secondary">�</span></div><div class="col-6"><strong class="text-accent">Finish</strong><br><span id="pd-finish" class="text-secondary">�</span></div></div>
+              <div class="mb-3"><strong class="text-accent">Dimensions</strong><br><span id="pd-dimensions" class="text-secondary">�</span></div>
+              <p id="pd-description" class="text-secondary"></p>
+              <h5 class="mt-4 mb-2">Features</h5>
+              <ul id="pd-features" class="text-secondary"></ul>
+              <h5 class="mt-3 mb-2">Specifications</h5>
+              <table class="spec-table" id="pd-specs"></table>
+              <p class="mt-3 small text-secondary"><i class="fas fa-shield-alt text-accent me-2"></i><strong>Warranty:</strong> <span id="pd-warranty">�</span></p>
+              <div class="d-flex flex-wrap gap-2 mt-4">
+                <a id="pd-pdf" href="#" class="btn-luxury" download><i class="fas fa-file-pdf me-2"></i>Product PDF</a>
+                <a href="catalogue.html" class="btn-luxury"><i class="fas fa-book me-2"></i>Catalogue</a>
+                <a id="pd-inquiry" href="contact.html" class="btn-luxury btn-luxury-filled"><i class="fas fa-envelope me-2"></i>Inquiry Now</a>
+              </div>
+              <div class="d-flex justify-content-between align-items-center mt-4 pt-3 border-top" style="border-color:var(--border)!important">
+                <a id="pd-prev" href="#" class="btn-luxury btn-sm d-none"><i class="fas fa-arrow-left me-1"></i> Previous</a>
+                <a href="products.html" class="btn-luxury btn-sm">All Products</a>
+                <a id="pd-next" href="#" class="btn-luxury btn-sm d-none">Next <i class="fas fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-dark">
+      <div class="container">
+        <div class="section-header"><h2 class="section-title">Related Products</h2></div>
+        <div id="related-products-slider" class="product-slider"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 footer-widget">
+          <a href="index.html" class="navbar-brand d-block mb-3"><img src="assets/images/logo.png" alt="Vistech" class="site-logo"></a>
+          <p class="text-secondary">Shree Om Steel — manufacturer of Vistech® exclusive bath accessories since 2015.</p>
+          <div class="footer-social mt-3">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/919876543210" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 footer-widget">
+          <h5>Quick Links</h5>
+          <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="products.html">Products</a></li><li><a href="catalogue.html">Catalogue</a></li><li><a href="contact.html">Contact</a></li></ul>
+        </div>
+        <div class="col-6 col-lg-2 footer-widget">
+          <h5>Categories</h5>
+          <ul><li><a href="products.html?category=Towel Rod">Towel Rods</a></li><li><a href="products.html?category=Soap Dispenser">Soap Dispensers</a></li><li><a href="products.html?category=Soap Dish">Soap Dishes</a></li><li><a href="products.html?category=Corner Shelf">Corner Shelves</a></li></ul>
+        </div>
+        <div class="col-lg-4 footer-widget">
+          <h5>Newsletter</h5>
+          <p class="text-secondary small">Subscribe for product updates and offers.</p>
+          <form id="newsletter-form" class="newsletter-form">
+            <input type="email" placeholder="Your email" required aria-label="Email">
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+          <p class="text-secondary small mt-3"><i class="fas fa-phone text-accent me-2"></i>+91 98765 43210<br><i class="fas fa-envelope text-accent me-2"></i>info@vistechbath.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span class="current-year"></span> Shree Om Steel · Vistech®. All Rights Reserved. | <a href="privacy-policy.html">Privacy</a> | <a href="terms.html">Terms</a> | <a href="sitemap.html">Sitemap</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <script src="assets/js/products-data.js" defer></script>
+  <script src="assets/js/product-detail-page.js" defer></script>
+  <script src="assets/js/jquery.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

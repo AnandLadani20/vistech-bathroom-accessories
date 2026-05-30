@@ -1,0 +1,112 @@
+/* ==========================================================================
+   OM Steel Bath - Responsive Styles
+   ========================================================================== */
+
+@media (max-width: 1199.98px) {
+  .gallery-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 991.98px) {
+  section:not(.hero-section):not(.page-banner) {
+    content-visibility: visible;
+  }
+
+  .category-card:hover,
+  .product-card:hover,
+  .stat-box:hover {
+    transform: none;
+  }
+  section {
+    padding: 60px 0;
+  }
+
+  .mega-menu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    display: none;
+    border: none;
+    padding: 1rem;
+    background: var(--bg-card);
+  }
+
+  .nav-item.dropdown-mega.show .mega-menu {
+    display: block;
+  }
+
+  .filter-sidebar {
+    position: static;
+    margin-bottom: 2rem;
+  }
+
+  .hero-section,
+  .hero-slider {
+    min-height: 500px;
+    height: 85vh;
+  }
+}
+
+@media (max-width: 767.98px) {
+  section {
+    padding: 50px 0;
+  }
+
+  .page-banner {
+    padding: 130px 0 60px;
+  }
+
+  .gallery-grid {
+    column-count: 1;
+  }
+
+  .stat-box .stat-number {
+    font-size: 2rem;
+  }
+
+  .cta-banner {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .product-info-box {
+    padding: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .hero-dots {
+    bottom: 20px;
+  }
+
+  #back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form button {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .category-card {
+    height: 220px;
+  }
+
+  .btn-luxury {
+    padding: 10px 20px;
+    font-size: 0.85rem;
+  }
+
+  .testimonial-card {
+    padding: 1.5rem;
+  }
+}
