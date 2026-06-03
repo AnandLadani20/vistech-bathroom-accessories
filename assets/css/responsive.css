@@ -1,27 +1,52 @@
 /* ==========================================================================
-   OM Steel Bath - Responsive Styles
+   Vistech by Shree Om Steel — Responsive Styles
    ========================================================================== */
 
+/* --------------------------------------------------------------------------
+   LARGE (< 1200px)
+   -------------------------------------------------------------------------- */
 @media (max-width: 1199.98px) {
   .gallery-grid {
     column-count: 2;
   }
 }
 
+/* --------------------------------------------------------------------------
+   MEDIUM / TABLET (< 992px) — Mobile menu kicks in here
+   -------------------------------------------------------------------------- */
 @media (max-width: 991.98px) {
-  section:not(.hero-section):not(.page-banner) {
-    content-visibility: visible;
+
+  /* Show hamburger, hide Bootstrap desktop nav */
+  .hamburger-btn {
+    display: flex;
   }
 
-  .category-card:hover,
-  .product-card:hover,
-  .stat-box:hover {
-    transform: none;
+  /* Bootstrap collapse hidden on mobile — we use overlay instead */
+  .navbar-collapse {
+    display: none !important;
   }
-  section {
+
+  /* Tighten section padding */
+  section:not(.hero-section):not(.page-banner) {
+    content-visibility: visible;
     padding: 60px 0;
   }
 
+  /* Logo */
+  .site-logo,
+  .navbar-brand img.site-logo {
+    height: 38px !important;
+  }
+
+  /* Disable hover transforms on touch */
+  .category-card:hover,
+  .product-card:hover,
+  .product-card-v2:hover,
+  .stat-box:hover {
+    transform: none;
+  }
+
+  /* Mega menu: show inline when triggered */
   .mega-menu {
     position: static;
     opacity: 1;
@@ -37,18 +62,69 @@
     display: block;
   }
 
+  /* Filter sidebar stacked */
   .filter-sidebar {
     position: static;
     margin-bottom: 2rem;
   }
 
+  /* Hero: taller on tablet */
   .hero-section,
   .hero-slider {
-    min-height: 500px;
-    height: 85vh;
+    min-height: 480px;
+    height: 88vh;
+  }
+
+  /* -------------------------------------------------------
+     HERO TEXT — bottom-left on tablet & mobile
+     ------------------------------------------------------- */
+  .hero-content {
+    top: auto !important;
+    bottom: 5.5rem;
+    left: 1.75rem;
+    right: auto;
+    transform: none !important;
+    text-align: left;
+    width: calc(100% - 3.5rem);
+    max-width: 560px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  /* Hero dots — reposition with content shift */
+  .hero-dots {
+    bottom: 2rem;
+  }
+
+  /* Container padding on smaller screens */
+  .site-header .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Products toolbar: search full-width top row, count + CTA inline below */
+  .products-page-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .products-search-bar {
+    max-width: 100%;
+    width: 100%;
   }
 }
 
+/* --------------------------------------------------------------------------
+   SMALL (< 768px)
+   -------------------------------------------------------------------------- */
 @media (max-width: 767.98px) {
   section {
     padding: 50px 0;
@@ -76,29 +152,83 @@
   }
 
   .hero-dots {
-    bottom: 20px;
+    bottom: 1.5rem;
+  }
+
+  .whatsapp-float {
+    right: 20px;
+    bottom: 75px;
+    width: 44px;
+    height: 44px;
   }
 
   #back-to-top {
     bottom: 20px;
     right: 20px;
-    width: 45px;
-    height: 45px;
+    width: 44px;
+    height: 44px;
   }
 
   .newsletter-form {
     flex-direction: column;
+    gap: 10px;
   }
 
   .newsletter-form button {
     width: 100%;
     padding: 12px;
   }
+
+  /* Hero text adjustments on small screens */
+  .hero-content {
+    bottom: 4.5rem;
+    left: 1.25rem;
+    width: calc(100% - 2.5rem);
+  }
+
+  .hero-content h1 {
+    font-size: clamp(1.6rem, 6vw, 2.2rem);
+  }
+
+  /* Mobile menu nav font sizes */
+  .mobile-nav-list li a {
+    font-size: clamp(1.4rem, 7vw, 2rem);
+    padding: 0.5rem 1.5rem;
+  }
+
+  /* Products page header */
+  .products-page-header {
+    gap: 0.75rem;
+  }
+
+  /* Collection tabs on mobile */
+  .collection-tabs {
+    gap: 0.4rem;
+  }
+
+  .collection-tab {
+    padding: 0.45rem 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  /* Product cards: 2 columns on small phones */
+  .products-grid-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
+/* --------------------------------------------------------------------------
+   EXTRA SMALL (< 576px)
+   -------------------------------------------------------------------------- */
 @media (max-width: 575.98px) {
   .category-card {
     height: 220px;
+  }
+
+  .site-logo,
+  .navbar-brand img.site-logo {
+    height: 32px !important;
   }
 
   .btn-luxury {
@@ -108,5 +238,51 @@
 
   .testimonial-card {
     padding: 1.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(1.4rem, 7vw, 1.9rem);
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  /* Stack products 2 per row on very small screens */
+  .product-card-v2 .pc-body {
+    padding: 0.85rem 1rem 1rem;
+  }
+
+  .product-card-v2 .pc-name {
+    font-size: 0.85rem;
+  }
+
+  .product-card-v2 .pc-action {
+    font-size: 0.72rem;
+    padding: 7px 12px;
+  }
+
+  /* Mobile menu on tiny phones */
+  .mobile-nav-list li a {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    padding: 0.45rem 1rem;
+  }
+
+  .mobile-menu-footer {
+    gap: 1.5rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   DESKTOP: ensure hamburger is hidden
+   -------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  .hamburger-btn {
+    display: none !important;
+  }
+
+  .mobile-menu {
+    display: none !important;
   }
 }

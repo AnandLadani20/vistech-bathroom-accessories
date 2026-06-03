@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Vistech | Shree Om Steel - Exclusive Bath Accessories Manufacturer</title>
-  <meta name="description" content="Vistech by Shree Om Steel - Premium S.S 202 bathroom accessories. Kiva, Rella, Bruna, Canata & Vistech series. Napkin holders, towel racks, soap dishes & more.">
+  <meta name="description" content="Vistech by Shree Om Steel — Premium S.S 202 bathroom accessories. Kiva, Rella, Bruna, Canata &amp; Vistech series. Napkin holders, towel racks, soap dishes &amp; more.">
   <meta name="keywords" content="Vistech, Shree Om Steel, bathroom accessories, KV-101, towel rack, soap dish, S.S 202, Rajkot">
   <link rel="canonical" href="https://www.vistechbath.com/">
   <meta property="og:type" content="website">
@@ -15,11 +15,11 @@
   <meta property="og:image" content="assets/images/logo.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Vistech Exclusive Bath Accessories">
-  <meta name="twitter:description" content="Luxury bathroom accessories manufacturer & exporter.">
+  <meta name="twitter:description" content="Luxury bathroom accessories manufacturer &amp; exporter.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="assets/images/products/KV-109.jpg" as="image" fetchpriority="high">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
@@ -54,7 +54,7 @@
   }
   </script>
 </head>
-<body>
+<body class="loading">
   <div id="page-loader">
     <div class="loader-logo"><img src="assets/images/logo.png" alt="Vistech" style="height: 56px;"></div>
     <div class="loader-bar"><span></span></div>
@@ -64,14 +64,14 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Vistech - Shree Om Steel" class="site-logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
         </button>
         <div class="collapse navbar-collapse" id="mainNav">
           <ul class="navbar-nav ms-auto align-items-lg-center">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-            <li class="nav-item dropdown dropdown-mega">
+            <li class="nav-item dropdown-mega">
               <a class="nav-link" href="products.html">Products</a>
               <div class="mega-menu">
                 <div class="container">
@@ -86,7 +86,7 @@
                       <a href="products.html?collection=Vistech">Vistech Series (500)</a>
                       <a href="products.html?collection=Kitchen">Kitchen Cutlery</a>
                       <a href="products.html?category=Soap Dish">Soap Dishes</a>
-                      <a href="products.html?category=Towel Rod">Towel Rods & Racks</a>
+                      <a href="products.html?category=Towel Rod">Towel Rods &amp; Racks</a>
                     </div>
                     <div class="col-md-3 mega-col"><h6>Quick Links</h6>
                       <a href="catalogue.html">Download Catalogue</a>
@@ -111,73 +111,71 @@
     </nav>
   </header>
 
+  <!-- Mobile Full-Screen Menu Overlay -->
+  <div id="mobile-menu" class="mobile-menu" role="dialog" aria-modal="true" aria-label="Site navigation">
+    <a href="index.html" class="mobile-menu-logo"><img src="assets/images/logo.png" alt="Vistech"></a>
+    <button id="mobile-menu-close" class="mobile-menu-close-btn" aria-label="Close navigation">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="1" y1="1" x2="19" y2="19"/><line x1="19" y1="1" x2="1" y2="19"/></svg>
+    </button>
+    <nav>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a href="https://wa.me/919712814920"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="tel:+919712814920"><i class="fas fa-phone"></i> Call Us</a>
+    </div>
+  </div>
+
   <main>
     <section class="hero-section p-0">
       <div class="hero-slider">
         <div class="hero-slide is-active">
-          <img class="hero-bg" src="assets/images/products/KV-109.jpg" alt="Vistech towel rack in modern bathroom" width="1920" height="1080" fetchpriority="high" decoding="async">
+          <img class="hero-bg" src="assets/images/hero/heroimg1.png" alt="Vistech towel rack in modern bathroom" width="1920" height="1080" fetchpriority="high" decoding="async">
           <div class="hero-content">
             <h1>Vistech <span>Exclusive</span> Bath Accessories</h1>
             <p>Premium S.S 202 accessories by Shree Om Steel — Kiva, Rella, Bruna, Canata &amp; Vistech Series</p>
-            <div class="hero-btns">
-              <a href="products.html" class="btn-luxury btn-luxury-filled me-3">Explore Products</a>
-              <a href="catalogue.html" class="btn-luxury">Download Catalogue</a>
-            </div>
           </div>
         </div>
         <div class="hero-slide">
-          <img class="hero-bg" data-lazy="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80" alt="Luxury modern bathroom interior" width="1920" height="1080" decoding="async">
+          <img class="hero-bg" data-lazy="assets/images/hero/heroimg5.png" alt="Luxury modern bathroom interior" width="1920" height="1080" decoding="async">
           <div class="hero-content">
             <h1>Elevate Every <span>Bathroom Space</span></h1>
             <p>Designer fittings for homes, hotels, and commercial projects — corrosion resistant &amp; long lasting</p>
-            <div class="hero-btns">
-              <a href="gallery.html" class="btn-luxury btn-luxury-filled me-3">View Gallery</a>
-              <a href="contact.html" class="btn-luxury">Get a Quote</a>
-            </div>
           </div>
         </div>
         <div class="hero-slide">
-          <img class="hero-bg" data-lazy="assets/images/products/BR-310.jpg" alt="Bruna series bathroom accessories" width="1920" height="1080" decoding="async">
+          <img class="hero-bg" data-lazy="assets/images/hero/heroimg2.png" alt="Bruna series bathroom accessories" width="1920" height="1080" decoding="async">
           <div class="hero-content">
             <h1>Premium <span>Quality</span> Craftsmanship</h1>
             <p>Attractive design · Sturdy construction · Perfect chrome finish · Built for daily use</p>
-            <div class="hero-btns">
-              <a href="about.html" class="btn-luxury btn-luxury-filled me-3">About Us</a>
-              <a href="products.html?collection=Bruna" class="btn-luxury">Bruna Series</a>
-            </div>
           </div>
         </div>
         <div class="hero-slide">
-          <img class="hero-bg" data-lazy="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=1920&q=80" alt="Premium bathroom accessories installation" width="1920" height="1080" decoding="async">
+          <img class="hero-bg" data-lazy="assets/images/hero/heroimg3.png" alt="Premium bathroom accessories installation" width="1920" height="1080" decoding="async">
           <div class="hero-content">
             <h1>Complete <span>Bathroom Solutions</span></h1>
             <p>Towel rods, soap dishes, dispensers, shelves &amp; more — 65+ products across five exclusive collections</p>
-            <div class="hero-btns">
-              <a href="products.html" class="btn-luxury btn-luxury-filled me-3">Browse Catalogue</a>
-              <a href="contact.html" class="btn-luxury">Become a Dealer</a>
-            </div>
           </div>
         </div>
         <div class="hero-slide">
-          <img class="hero-bg" data-lazy="assets/images/products/505.jpg" alt="Vistech 505 three in one accessory" width="1920" height="1080" decoding="async">
+          <img class="hero-bg" data-lazy="assets/images/hero/heroimg4.png" alt="Vistech 505 three in one accessory" width="1920" height="1080" decoding="async">
           <div class="hero-content">
             <h1>Trusted Since <span>2015</span></h1>
-            <p>Manufactured in Rajkot, Gujarat — serving dealers and builders across India with series-numbered Vistech® products</p>
-            <div class="hero-btns">
-              <a href="products.html" class="btn-luxury btn-luxury-filled me-3">View Collections</a>
-              <a href="catalogue.html" class="btn-luxury">Download PDF</a>
-            </div>
+            <p>Manufactured in Rajkot, Gujarat — serving dealers and builders across India</p>
           </div>
         </div>
         <div class="hero-slide">
-          <img class="hero-bg" data-lazy="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1920&q=80" alt="Elegant bathroom with premium fittings" width="1920" height="1080" decoding="async">
+          <img class="hero-bg" data-lazy="assets/images/hero/heroimg6.png" alt="Elegant bathroom with premium fittings" width="1920" height="1080" decoding="async">
           <div class="hero-content">
             <h1>Style Meets <span>Function</span></h1>
             <p>From robe hooks to multi-function corner shelves — accessories that complement any bathroom décor</p>
-            <div class="hero-btns">
-              <a href="products.html?collection=Vistech" class="btn-luxury btn-luxury-filled me-3">500 Series</a>
-              <a href="contact.html" class="btn-luxury">Contact Us</a>
-            </div>
           </div>
         </div>
       </div>
@@ -225,7 +223,7 @@
           <div class="col-6 col-lg-3" data-aos="fade-up"><div class="stat-box"><i class="fas fa-box stat-icon"></i><div class="stat-number" data-count="65">0</div><div class="stat-label">Catalogue Products</div></div></div>
           <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="100"><div class="stat-box"><i class="fas fa-layer-group stat-icon"></i><div class="stat-number" data-count="5">0</div><div class="stat-label">Series Collections</div></div></div>
           <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="200"><div class="stat-box"><i class="fas fa-industry stat-icon"></i><div class="stat-number" data-count="11">0</div><div class="stat-label">Years Since 2015</div></div></div>
-          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300"><div class="stat-box"><i class="fas fa-certificate stat-icon"></i><div class="stat-number" data-count="202">0</div><div class="stat-label">S.S 202 Grade</div></div></div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300"><div class="stat-box"><i class="fas fa-certificate stat-icon"></i><div class="stat-number" data-count="202/304">0</div><div class="stat-label">S.S 202/304 Grade</div></div></div>
         </div>
       </div>
     </section>
@@ -293,7 +291,7 @@
             <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://wa.me/919876543210" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://wa.me/919712814920" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
         <div class="col-6 col-lg-2 footer-widget">
@@ -311,7 +309,7 @@
             <input type="email" placeholder="Your email" required aria-label="Email">
             <button type="submit"><i class="fas fa-paper-plane"></i></button>
           </form>
-          <p class="text-secondary small mt-3"><i class="fas fa-phone text-accent me-2"></i>+91 98765 43210<br><i class="fas fa-envelope text-accent me-2"></i>info@vistechbath.com</p>
+          <p class="text-secondary small mt-3"><i class="fas fa-phone text-accent me-2"></i>+91 97128 14920<br><i class="fas fa-envelope text-accent me-2"></i>info@vistechbath.com</p>
         </div>
       </div>
       <div class="footer-bottom">
@@ -319,6 +317,10 @@
       </div>
     </div>
   </footer>
+
+  <a href="https://wa.me/919712814920" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 
   <button id="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
 

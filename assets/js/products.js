@@ -292,7 +292,6 @@
     $('#pd-finish').text(product.finish);
     $('#pd-dimensions').text(product.dimensions);
     $('#pd-description').text(product.description);
-    $('#pd-warranty').text(product.warranty);
 
     const features = product.features || [];
     let featHtml = '';

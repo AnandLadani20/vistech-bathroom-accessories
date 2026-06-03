@@ -3,19 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products | Vistech - Series-wise Bath Accessories Catalogue</title>
-  <meta name="description" content="Browse OM Steel Bath premium bathroom accessories - towel rods, soap dispensers, mirrors, grab bars. Filter by category, series & price.">
-  <meta name="keywords" content="bathroom accessories products, towel rod price, SS 304 accessories">
-  <link rel="canonical" href="https://www.omsteelbath.com/products.html">
-  <meta property="og:title" content="Products - OM Steel Bath">
-  <meta property="og:url" content="https://www.omsteelbath.com/products.html">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Products | Vistech - Premium Bath Accessories by Shree Om Steel</title>
+  <meta name="description" content="Browse Vistech premium bathroom accessories — Kiva, Rella, Bruna, Canata &amp; Vistech series. Towel rods, soap dishes, dispensers, shelves &amp; more. 65+ products.">
+  <meta name="keywords" content="Vistech bathroom accessories, towel rack, soap dish, S.S 202, Kiva, Rella, Bruna, Canata, bath accessories India">
+  <link rel="canonical" href="https://www.vistechbath.com/products.html">
+  <meta property="og:title" content="Products - Vistech Bath Accessories">
+  <meta property="og:description" content="65+ premium bathroom accessories across 5 exclusive series.">
+  <meta property="og:url" content="https://www.vistechbath.com/products.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.vistechbath.com/"},{"@type":"ListItem","position":2,"name":"Products","item":"https://www.vistechbath.com/products.html"}]}</script>
 </head>
-<body>
+<body class="loading">
   <div id="page-loader">
     <div class="loader-logo"><img src="assets/images/logo.png" alt="Vistech" style="height: 56px;"></div>
     <div class="loader-bar"><span></span></div>
@@ -25,15 +29,15 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Vistech - Shree Om Steel" class="site-logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
         </button>
         <div class="collapse navbar-collapse" id="mainNav">
           <ul class="navbar-nav ms-auto align-items-lg-center">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-            <li class="nav-item dropdown dropdown-mega">
-              <a class="nav-link" href="products.html">Products</a>
+            <li class="nav-item dropdown-mega">
+              <a class="nav-link active" href="products.html">Products</a>
               <div class="mega-menu">
                 <div class="container">
                   <div class="row">
@@ -71,6 +75,29 @@
       </div>
     </nav>
   </header>
+
+  <!-- Mobile Full-Screen Menu Overlay -->
+  <div id="mobile-menu" class="mobile-menu" role="dialog" aria-modal="true" aria-label="Site navigation">
+    <a href="index.html" class="mobile-menu-logo"><img src="assets/images/logo.png" alt="Vistech"></a>
+    <button id="mobile-menu-close" class="mobile-menu-close-btn" aria-label="Close navigation">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="1" y1="1" x2="19" y2="19"/><line x1="19" y1="1" x2="1" y2="19"/></svg>
+    </button>
+    <nav>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a href="https://wa.me/919712814920"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="tel:+919712814920"><i class="fas fa-phone"></i> Call Us</a>
+    </div>
+  </div>
+
   <main>
     <section class="page-banner">
       <div class="container">
@@ -78,37 +105,41 @@
         <nav aria-label="breadcrumb"><ol class="breadcrumb breadcrumb-custom"><li class="breadcrumb-item"><a href="index.html">Home</a></li><li class="breadcrumb-item active">Products</li></ol></nav>
       </div>
     </section>
+
     <section>
       <div class="container">
-        <div class="row">
-          <aside class="col-lg-3 mb-4">
-            <div class="filter-sidebar">
-              <div class="search-box"><i class="fas fa-search"></i><input type="text" id="product-search" placeholder="Search products..." aria-label="Search products"></div>
-              <div class="filter-group"><h5>Collection</h5><div id="filter-collections"></div></div>
-              <div class="filter-group"><h5>Category</h5><div id="filter-categories"></div></div>
-              <div class="filter-group"><h5>Series Prefix</h5><div id="filter-series"></div></div>
-              <div class="filter-group">
-                <h5>Price Range (₹)</h5>
-                <div class="row g-2"><div class="col-6"><input type="number" id="price-min" class="form-control form-control-sm" placeholder="Min"></div><div class="col-6"><input type="number" id="price-max" class="form-control form-control-sm" placeholder="Max"></div></div>
-              </div>
-              <button type="button" id="btn-apply-filters" class="btn-luxury btn-sm w-100 mb-2">Apply Filters</button>
-              <button type="button" id="btn-reset-filters" class="btn-luxury w-100">Reset</button>
-            </div>
-          </aside>
-          <div class="col-lg-9">
-            <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
-              <p class="text-secondary mb-0" id="product-count">Loading...</p>
-              <a href="catalogue.html" class="btn-luxury btn-sm"><i class="fas fa-download me-1"></i> Catalogue</a>
-            </div>
-            <div id="collection-tabs" class="collection-tabs mb-4 flex-wrap"></div>
-            <p class="text-secondary small mb-3">Each product has its own detail page — click <strong>View Details</strong> or the product name (Series KV, RE, BR, CA, 500, KT).</p>
-            <div class="row" id="products-grid"></div>
-            <div id="product-pagination" class="mt-4"></div>
+
+        <!-- Toolbar: Search + Count + Catalogue CTA -->
+        <div class="products-page-header">
+          <div class="products-search-bar">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="product-search" placeholder="Search by name, series or category…" aria-label="Search products">
+          </div>
+          <div class="d-flex align-items-center justify-content-between gap-3 w-100">
+            <span id="product-count" class="text-secondary"></span>
+            <a href="catalogue.html" class="btn-luxury btn-sm flex-shrink-0"><i class="fas fa-download me-2"></i>Catalogue</a>
           </div>
         </div>
+
+        <!-- Collection Tabs -->
+        <div class="collection-tabs-scroll">
+          <div class="collection-tabs" id="collection-tabs-inner">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="row" id="products-grid">
+          <div class="col-12 ajax-loading">
+            <div class="spinner"></div>
+            <p>Loading products…</p>
+          </div>
+        </div>
+
       </div>
     </section>
   </main>
+
   <footer class="site-footer">
     <div class="container">
       <div class="row g-4">
@@ -119,7 +150,7 @@
             <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://wa.me/919876543210" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://wa.me/919712814920" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
         <div class="col-6 col-lg-2 footer-widget">
@@ -137,7 +168,7 @@
             <input type="email" placeholder="Your email" required aria-label="Email">
             <button type="submit"><i class="fas fa-paper-plane"></i></button>
           </form>
-          <p class="text-secondary small mt-3"><i class="fas fa-phone text-accent me-2"></i>+91 98765 43210<br><i class="fas fa-envelope text-accent me-2"></i>info@vistechbath.com</p>
+          <p class="text-secondary small mt-3"><i class="fas fa-phone text-accent me-2"></i>+91 97128 14920<br><i class="fas fa-envelope text-accent me-2"></i>info@vistechbath.com</p>
         </div>
       </div>
       <div class="footer-bottom">
@@ -146,7 +177,11 @@
     </div>
   </footer>
 
+  <a href="https://wa.me/919712814920" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+    <i class="fab fa-whatsapp"></i>
+  </a>
   <button id="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
   <script src="assets/js/products-data.js" defer></script>
   <script src="assets/js/products-page.js" defer></script>
   <script src="assets/js/jquery.min.js" defer></script>

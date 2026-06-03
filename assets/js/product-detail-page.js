@@ -39,7 +39,6 @@
     $('pd-finish').textContent = product.finish || '—';
     $('pd-dimensions').textContent = product.dimensions || '—';
     $('pd-description').textContent = product.description || '';
-    $('pd-warranty').textContent = product.warranty || '—';
 
     var feat = $('pd-features');
     if (feat) {
