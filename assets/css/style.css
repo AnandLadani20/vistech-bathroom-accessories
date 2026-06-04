@@ -1190,6 +1190,16 @@ section:not(.hero-section):not(.page-banner) {
   padding-left: 5px;
 }
 
+.site-footer p a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.site-footer p a:hover {
+  color: var(--accent);
+}
+
 .footer-social a {
   display: inline-flex;
   width: 40px;
