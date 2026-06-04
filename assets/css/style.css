@@ -1334,6 +1334,7 @@ section:not(.hero-section):not(.page-banner) {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
+  object-position: top center;
 }
 
 .team-card .team-info {
