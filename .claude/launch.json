@@ -6,6 +6,12 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "3000"],
       "port": 3000
+    },
+    {
+      "name": "verenza",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5500", "--directory", "D:/verenza bath web"],
+      "port": 5500
     }
   ]
 }
