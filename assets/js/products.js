@@ -432,50 +432,114 @@
     const $slider = $('#featured-products-slider');
     if (!$slider.length) return;
 
+    const $fill = $('.featured-progress-fill');
+    const $prevBtn = $('#featured-prev');
+    const $nextBtn = $('#featured-next');
+    const track = $slider.get(0);
+
     const featured =
       window.FEATURED_PRODUCTS && window.FEATURED_PRODUCTS.length
         ? window.FEATURED_PRODUCTS
         : null;
 
     function buildSlider(products) {
-      let html = '';
-      products.forEach(function (p) {
+      let html = '<div class="feat-spacer" aria-hidden="true"></div>';
+      products.forEach(function (p, i) {
         const detailUrl = 'product-details.html?id=' + p.id;
+        const index = String(i + 1).padStart(2, '0');
         html +=
-          '<div class="product-slide">' +
-            '<article class="product-card">' +
-              '<div class="product-img-wrap">' +
-                '<img src="' + p.image + '" alt="' + p.name + '" loading="lazy">' +
-                '<div class="product-overlay"><a href="' + detailUrl + '" class="btn-luxury btn-sm">View Details</a></div>' +
+          '<article class="feat-card">' +
+            '<a href="' + detailUrl + '" class="feat-img-wrap">' +
+              '<span class="feat-index">' + index + '</span>' +
+              '<img src="' + p.image + '" alt="' + p.name + '" loading="lazy" draggable="false">' +
+              '<span class="feat-go" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>' +
+            '</a>' +
+            '<div class="feat-body">' +
+              '<div class="feat-meta">' +
+                '<span class="feat-collection">' + (p.collection || '') + '</span>' +
+                '<span class="feat-series">' + p.series + '</span>' +
               '</div>' +
-              '<div class="product-body">' +
-                '<div class="product-collection">' + (p.collection || '') + '</div>' +
-                '<span class="product-series">Series: ' + p.series + '</span>' +
-                '<h3 class="product-name"><a href="' + detailUrl + '">' + p.name + '</a></h3>' +
-                '<p class="product-price">' + p.price + '</p>' +
-              '</div>' +
-            '</article>' +
-          '</div>';
+              '<h3 class="feat-name"><a href="' + detailUrl + '">' + p.name + '</a></h3>' +
+              '<p class="feat-price">' + p.price + '</p>' +
+            '</div>' +
+          '</article>';
       });
+      html += '<div class="feat-spacer" aria-hidden="true"></div>';
       $slider.html(html);
-      if ($slider.hasClass('slick-initialized')) {
-        $slider.slick('unslick');
-      }
-      $slider.slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: !window.matchMedia('(prefers-reduced-motion: reduce)').matches,
-        autoplaySpeed: 4000,
-        arrows: true,
-        dots: true,
-        lazyLoad: 'ondemand',
-        pauseOnHover: true,
-        responsive: [
-          { breakpoint: 1200, settings: { slidesToShow: 3 } },
-          { breakpoint: 992, settings: { slidesToShow: 2 } },
-          { breakpoint: 576, settings: { slidesToShow: 1 } }
-        ]
+      initScroller();
+    }
+
+    function updateProgress() {
+      if (!track) return;
+      const max = track.scrollWidth - track.clientWidth;
+      const pct = max > 0 ? (track.scrollLeft / max) * 100 : 0;
+      $fill.css('width', pct + '%');
+      // Snap reserves a gutter (spacer + gap) before the first/last card, so
+      // the resting scrollLeft at either end isn't exactly 0/max.
+      const edgeSlack = 90;
+      $prevBtn.prop('disabled', track.scrollLeft <= edgeSlack);
+      $nextBtn.prop('disabled', track.scrollLeft >= max - edgeSlack);
+    }
+
+    function scrollByCard(dir) {
+      if (!track) return;
+      const card = track.querySelector('.feat-card');
+      const gap = 24;
+      const amount = card ? card.getBoundingClientRect().width + gap : 320;
+      track.scrollBy({ left: dir * amount * 2, behavior: 'smooth' });
+    }
+
+    function initScroller() {
+      if (!track) return;
+
+      updateProgress();
+      track.addEventListener('scroll', updateProgress, { passive: true });
+      $(window).on('resize', updateProgress);
+
+      $prevBtn.off('click').on('click', function () { scrollByCard(-1); });
+      $nextBtn.off('click').on('click', function () { scrollByCard(1); });
+
+      // Plain mouse wheel always scrolls the page, never the card row —
+      // CSS scroll-snap fights any manual scrollLeft nudge from a wheel
+      // handler, which made that approach feel stuck. Horizontal scrolling
+      // is available via drag, the arrow buttons, or native trackpad swipe.
+
+      // Drag-to-scroll for mouse users.
+      let isDown = false;
+      let startX = 0;
+      let startScroll = 0;
+      let moved = false;
+
+      track.addEventListener('mousedown', function (e) {
+        isDown = true;
+        moved = false;
+        track.classList.add('dragging');
+        startX = e.pageX;
+        startScroll = track.scrollLeft;
       });
+
+      function endDrag() {
+        isDown = false;
+        track.classList.remove('dragging');
+      }
+      window.addEventListener('mouseup', endDrag);
+      track.addEventListener('mouseleave', endDrag);
+
+      track.addEventListener('mousemove', function (e) {
+        if (!isDown) return;
+        const dx = e.pageX - startX;
+        if (Math.abs(dx) > 4) moved = true;
+        track.scrollLeft = startScroll - dx;
+      });
+
+      // Suppress the click-through on a card link right after a drag.
+      track.addEventListener('click', function (e) {
+        if (moved) {
+          e.preventDefault();
+          e.stopPropagation();
+          moved = false;
+        }
+      }, true);
     }
 
     if (featured) {

@@ -42,8 +42,17 @@
   .category-card:hover,
   .product-card:hover,
   .product-card-v2:hover,
+  .feat-card:hover,
   .stat-box:hover {
     transform: none;
+  }
+
+  .featured-controls {
+    display: none;
+  }
+
+  .featured-header {
+    text-align: left;
   }
 
   /* Mega menu: show inline when triggered */
@@ -247,6 +256,10 @@
   .hero-content p {
     font-size: 0.9rem;
   }
+
+  /* .hero-slide .hero-bg {
+  object-position: center;
+} */
 
   /* Stack products 2 per row on very small screens */
   .product-card-v2 .pc-body {

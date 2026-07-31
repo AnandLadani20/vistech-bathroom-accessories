@@ -8,8 +8,8 @@
     "priceValue": 212,
     "category": "Napkin Holder",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 4 inch",
     "features": [
       "Vistech Kiva Series",
       "Series No. KV-101",
@@ -20,15 +20,17 @@
       "Series Number": "KV-101",
       "Collection": "Kiva",
       "Material": "S.S 202",
-      "MRP": "₹212"
+      "MRP": "₹212",
+      "Weight": "0.247 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 4 inch"
     },
     "description": "Napkin Holder from Vistech Kiva collection. Series KV-101. Material: S.S 202. MRP ₹212.",
-    
     "image": "assets/images/products/KV-101.jpg",
     "images": [
       "assets/images/products/KV-101.jpg"
     ],
-    "pdf": "assets/pdf/products/KV-101.pdf"
+    "pdf": "assets/pdf/products/KV-101.pdf",
+    "weight": "0.247 gm"
   },
   {
     "id": 2,
@@ -39,8 +41,8 @@
     "priceValue": 200,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 4 inch",
     "features": [
       "Vistech Kiva Series",
       "Series No. KV-102",
@@ -51,15 +53,17 @@
       "Series Number": "KV-102",
       "Collection": "Kiva",
       "Material": "S.S 202",
-      "MRP": "₹200"
+      "MRP": "₹200",
+      "Weight": "0.175 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 4 inch"
     },
     "description": "Soap Dish from Vistech Kiva collection. Series KV-102. Material: S.S 202. MRP ₹200.",
-    
     "image": "assets/images/products/KV-102.jpg",
     "images": [
       "assets/images/products/KV-102.jpg"
     ],
-    "pdf": "assets/pdf/products/KV-102.pdf"
+    "pdf": "assets/pdf/products/KV-102.pdf",
+    "weight": "0.175 gm"
   },
   {
     "id": 3,
@@ -70,8 +74,8 @@
     "priceValue": 120,
     "category": "Robe Hook",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 3.50 inch x W: 2.50 inch x H: 2.50 inch",
     "features": [
       "Vistech Kiva Series",
       "Series No. KV-103",
@@ -82,15 +86,17 @@
       "Series Number": "KV-103",
       "Collection": "Kiva",
       "Material": "S.S 202",
-      "MRP": "₹120"
+      "MRP": "₹120",
+      "Weight": "0.75 gm",
+      "Dimensions": "L: 3.50 inch x W: 2.50 inch x H: 2.50 inch"
     },
     "description": "Robe Hook from Vistech Kiva collection. Series KV-103. Material: S.S 202. MRP ₹120.",
-    
     "image": "assets/images/products/KV-103.jpg",
     "images": [
       "assets/images/products/KV-103.jpg"
     ],
-    "pdf": "assets/pdf/products/KV-103.pdf"
+    "pdf": "assets/pdf/products/KV-103.pdf",
+    "weight": "0.75 gm"
   },
   {
     "id": 4,
@@ -101,8 +107,8 @@
     "priceValue": 330,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 25 inch x W: 4 inch x H: 3.50 inch",
     "features": [
       "Vistech Kiva Series",
       "Series No. KV-104",
@@ -113,15 +119,17 @@
       "Series Number": "KV-104",
       "Collection": "Kiva",
       "Material": "S.S 202",
-      "MRP": "₹330"
+      "MRP": "₹330",
+      "Weight": "0.375 gm",
+      "Dimensions": "L: 25 inch x W: 4 inch x H: 3.50 inch"
     },
     "description": "Towel Stand from Vistech Kiva collection. Series KV-104. Material: S.S 202. MRP ₹330.",
-    
     "image": "assets/images/products/KV-104.jpg",
     "images": [
       "assets/images/products/KV-104.jpg"
     ],
-    "pdf": "assets/pdf/products/KV-104.pdf"
+    "pdf": "assets/pdf/products/KV-104.pdf",
+    "weight": "0.375 gm"
   },
   {
     "id": 5,
@@ -132,8 +140,8 @@
     "priceValue": 260,
     "category": "Tooth Brush Holder",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 4 inch",
     "features": [
       "Vistech Kiva Series",
       "Series No. KV-105",
@@ -144,15 +152,17 @@
       "Series Number": "KV-105",
       "Collection": "Kiva",
       "Material": "S.S 202",
-      "MRP": "₹260"
+      "MRP": "₹260",
+      "Weight": "0.190 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 4 inch"
     },
     "description": "Tooth Brush Holder from Vistech Kiva collection. Series KV-105. Material: S.S 202. MRP ₹260.",
-    
     "image": "assets/images/products/KV-105.jpg",
     "images": [
       "assets/images/products/KV-105.jpg"
     ],
-    "pdf": "assets/pdf/products/KV-105.pdf"
+    "pdf": "assets/pdf/products/KV-105.pdf",
+    "weight": "0.190 gm"
   },
   {
     "id": 6,
@@ -163,8 +173,8 @@
     "priceValue": 350,
     "category": "Soap Dispenser",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 4 inch",
     "features": [
       "Vistech Kiva Series",
       "Series No. KV-106",
@@ -175,15 +185,17 @@
       "Series Number": "KV-106",
       "Collection": "Kiva",
       "Material": "S.S 202",
-      "MRP": "₹350"
+      "MRP": "₹350",
+      "Weight": "0.195 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 4 inch"
     },
     "description": "Liquid Dispenser from Vistech Kiva collection. Series KV-106. Material: S.S 202. MRP ₹350.",
-    
     "image": "assets/images/products/KV-106.jpg",
     "images": [
       "assets/images/products/KV-106.jpg"
     ],
-    "pdf": "assets/pdf/products/KV-106.pdf"
+    "pdf": "assets/pdf/products/KV-106.pdf",
+    "weight": "0.195 gm"
   },
   {
     "id": 7,
@@ -194,8 +206,8 @@
     "priceValue": 360,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch",
     "features": [
       "Vistech Kiva Series",
       "Series No. KV-107",
@@ -206,15 +218,17 @@
       "Series Number": "KV-107",
       "Collection": "Kiva",
       "Material": "S.S 202",
-      "MRP": "₹360"
+      "MRP": "₹360",
+      "Weight": "0.331 gm",
+      "Dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch"
     },
     "description": "Soap Dish With Tooth Brush Holder from Vistech Kiva collection. Series KV-107. Material: S.S 202. MRP ₹360.",
-    
     "image": "assets/images/products/KV-107.jpg",
     "images": [
       "assets/images/products/KV-107.jpg"
     ],
-    "pdf": "assets/pdf/products/KV-107.pdf"
+    "pdf": "assets/pdf/products/KV-107.pdf",
+    "weight": "0.331 gm"
   },
   {
     "id": 8,
@@ -225,8 +239,8 @@
     "priceValue": 290,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch",
     "features": [
       "Vistech Kiva Series",
       "Series No. KV-108",
@@ -237,15 +251,17 @@
       "Series Number": "KV-108",
       "Collection": "Kiva",
       "Material": "S.S 202",
-      "MRP": "₹290"
+      "MRP": "₹290",
+      "Weight": "0.215 gm",
+      "Dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch"
     },
     "description": "Double Soap Dish from Vistech Kiva collection. Series KV-108. Material: S.S 202. MRP ₹290.",
-    
     "image": "assets/images/products/KV-108.jpg",
     "images": [
       "assets/images/products/KV-108.jpg"
     ],
-    "pdf": "assets/pdf/products/KV-108.pdf"
+    "pdf": "assets/pdf/products/KV-108.pdf",
+    "weight": "0.215 gm"
   },
   {
     "id": 9,
@@ -256,8 +272,8 @@
     "priceValue": 836,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 25.5 inch x W: 10 inch x H: 5 inch",
     "features": [
       "Vistech Kiva Series",
       "Series No. KV-109",
@@ -268,15 +284,17 @@
       "Series Number": "KV-109",
       "Collection": "Kiva",
       "Material": "S.S 202",
-      "MRP": "₹836"
+      "MRP": "₹836",
+      "Weight": "1 kg 0.95 gm",
+      "Dimensions": "L: 25.5 inch x W: 10 inch x H: 5 inch"
     },
     "description": "Towel Rack from Vistech Kiva collection. Series KV-109. Material: S.S 202. MRP ₹836.",
-    
     "image": "assets/images/products/KV-109.jpg",
     "images": [
       "assets/images/products/KV-109.jpg"
     ],
-    "pdf": "assets/pdf/products/KV-109.pdf"
+    "pdf": "assets/pdf/products/KV-109.pdf",
+    "weight": "1 kg 0.95 gm"
   },
   {
     "id": 10,
@@ -287,8 +305,8 @@
     "priceValue": 230,
     "category": "Napkin Holder",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch",
     "features": [
       "Vistech Rella Series",
       "Series No. RE-201",
@@ -299,15 +317,17 @@
       "Series Number": "RE-201",
       "Collection": "Rella",
       "Material": "S.S 202",
-      "MRP": "₹230"
+      "MRP": "₹230",
+      "Weight": "0.317 gm",
+      "Dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch"
     },
     "description": "Napkin Holder from Vistech Rella collection. Series RE-201. Material: S.S 202. MRP ₹230.",
-    
     "image": "assets/images/products/RE-201.jpg",
     "images": [
       "assets/images/products/RE-201.jpg"
     ],
-    "pdf": "assets/pdf/products/RE-201.pdf"
+    "pdf": "assets/pdf/products/RE-201.pdf",
+    "weight": "0.317 gm"
   },
   {
     "id": 11,
@@ -318,8 +338,8 @@
     "priceValue": 236,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 4 inch",
     "features": [
       "Vistech Rella Series",
       "Series No. RE-202",
@@ -330,15 +350,17 @@
       "Series Number": "RE-202",
       "Collection": "Rella",
       "Material": "S.S 202",
-      "MRP": "₹236"
+      "MRP": "₹236",
+      "Weight": "0.171 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 4 inch"
     },
     "description": "Soap Dish from Vistech Rella collection. Series RE-202. Material: S.S 202. MRP ₹236.",
-    
     "image": "assets/images/products/RE-202.jpg",
     "images": [
       "assets/images/products/RE-202.jpg"
     ],
-    "pdf": "assets/pdf/products/RE-202.pdf"
+    "pdf": "assets/pdf/products/RE-202.pdf",
+    "weight": "0.171 gm"
   },
   {
     "id": 12,
@@ -349,8 +371,8 @@
     "priceValue": 128,
     "category": "Robe Hook",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 3.50 inch x W: 2.50 inch x H: 2.50 inch",
     "features": [
       "Vistech Rella Series",
       "Series No. RE-203",
@@ -361,15 +383,17 @@
       "Series Number": "RE-203",
       "Collection": "Rella",
       "Material": "S.S 202",
-      "MRP": "₹128"
+      "MRP": "₹128",
+      "Weight": "0.65 gm",
+      "Dimensions": "L: 3.50 inch x W: 2.50 inch x H: 2.50 inch"
     },
     "description": "Robe Hook from Vistech Rella collection. Series RE-203. Material: S.S 202. MRP ₹128.",
-    
     "image": "assets/images/products/RE-203.jpg",
     "images": [
       "assets/images/products/RE-203.jpg"
     ],
-    "pdf": "assets/pdf/products/RE-203.pdf"
+    "pdf": "assets/pdf/products/RE-203.pdf",
+    "weight": "0.65 gm"
   },
   {
     "id": 13,
@@ -380,8 +404,8 @@
     "priceValue": 340,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 25 inch x W: 4 inch x H: 3.50 inch",
     "features": [
       "Vistech Rella Series",
       "Series No. RE-204",
@@ -392,15 +416,17 @@
       "Series Number": "RE-204",
       "Collection": "Rella",
       "Material": "S.S 202",
-      "MRP": "₹340"
+      "MRP": "₹340",
+      "Weight": "0.417 gm",
+      "Dimensions": "L: 25 inch x W: 4 inch x H: 3.50 inch"
     },
     "description": "Towel Stand from Vistech Rella collection. Series RE-204. Material: S.S 202. MRP ₹340.",
-    
     "image": "assets/images/products/RE-204.jpg",
     "images": [
       "assets/images/products/RE-204.jpg"
     ],
-    "pdf": "assets/pdf/products/RE-204.pdf"
+    "pdf": "assets/pdf/products/RE-204.pdf",
+    "weight": "0.417 gm"
   },
   {
     "id": 14,
@@ -411,8 +437,8 @@
     "priceValue": 310,
     "category": "Tooth Brush Holder",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 4 inch",
     "features": [
       "Vistech Rella Series",
       "Series No. RE-205",
@@ -423,15 +449,17 @@
       "Series Number": "RE-205",
       "Collection": "Rella",
       "Material": "S.S 202",
-      "MRP": "₹310"
+      "MRP": "₹310",
+      "Weight": "0.191 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 4 inch"
     },
     "description": "Tooth Brush Holder from Vistech Rella collection. Series RE-205. Material: S.S 202. MRP ₹310.",
-    
     "image": "assets/images/products/RE-205.jpg",
     "images": [
       "assets/images/products/RE-205.jpg"
     ],
-    "pdf": "assets/pdf/products/RE-205.pdf"
+    "pdf": "assets/pdf/products/RE-205.pdf",
+    "weight": "0.191 gm"
   },
   {
     "id": 15,
@@ -442,8 +470,8 @@
     "priceValue": 376,
     "category": "Soap Dispenser",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 4 inch",
     "features": [
       "Vistech Rella Series",
       "Series No. RE-206",
@@ -454,15 +482,17 @@
       "Series Number": "RE-206",
       "Collection": "Rella",
       "Material": "S.S 202",
-      "MRP": "₹376"
+      "MRP": "₹376",
+      "Weight": "0.190 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 4 inch"
     },
     "description": "Liquid Dispenser from Vistech Rella collection. Series RE-206. Material: S.S 202. MRP ₹376.",
-    
     "image": "assets/images/products/RE-206.jpg",
     "images": [
       "assets/images/products/RE-206.jpg"
     ],
-    "pdf": "assets/pdf/products/RE-206.pdf"
+    "pdf": "assets/pdf/products/RE-206.pdf",
+    "weight": "0.190 gm"
   },
   {
     "id": 16,
@@ -473,8 +503,8 @@
     "priceValue": 380,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch",
     "features": [
       "Vistech Rella Series",
       "Series No. RE-207",
@@ -485,15 +515,17 @@
       "Series Number": "RE-207",
       "Collection": "Rella",
       "Material": "S.S 202",
-      "MRP": "₹380"
+      "MRP": "₹380",
+      "Weight": "0.351 gm",
+      "Dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch"
     },
     "description": "Soap Dish With Tooth Brush Holder from Vistech Rella collection. Series RE-207. Material: S.S 202. MRP ₹380.",
-    
     "image": "assets/images/products/RE-207.jpg",
     "images": [
       "assets/images/products/RE-207.jpg"
     ],
-    "pdf": "assets/pdf/products/RE-207.pdf"
+    "pdf": "assets/pdf/products/RE-207.pdf",
+    "weight": "0.351 gm"
   },
   {
     "id": 17,
@@ -504,8 +536,8 @@
     "priceValue": 306,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch",
     "features": [
       "Vistech Rella Series",
       "Series No. RE-208",
@@ -516,15 +548,17 @@
       "Series Number": "RE-208",
       "Collection": "Rella",
       "Material": "S.S 202",
-      "MRP": "₹306"
+      "MRP": "₹306",
+      "Weight": "0.329 gm",
+      "Dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch"
     },
     "description": "Double Soap Dish from Vistech Rella collection. Series RE-208. Material: S.S 202. MRP ₹306.",
-    
     "image": "assets/images/products/RE-208.jpg",
     "images": [
       "assets/images/products/RE-208.jpg"
     ],
-    "pdf": "assets/pdf/products/RE-208.pdf"
+    "pdf": "assets/pdf/products/RE-208.pdf",
+    "weight": "0.329 gm"
   },
   {
     "id": 18,
@@ -535,8 +569,8 @@
     "priceValue": 800,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 25.5 inch x W: 10 inch x H: 5 inch",
     "features": [
       "Vistech Rella Series",
       "Series No. RE-209",
@@ -547,15 +581,17 @@
       "Series Number": "RE-209",
       "Collection": "Rella",
       "Material": "S.S 202",
-      "MRP": "₹800"
+      "MRP": "₹800",
+      "Weight": "0.715 gm",
+      "Dimensions": "L: 25.5 inch x W: 10 inch x H: 5 inch"
     },
     "description": "Towel Rack from Vistech Rella collection. Series RE-209. Material: S.S 202. MRP ₹800.",
-    
     "image": "assets/images/products/RE-209.jpg",
     "images": [
       "assets/images/products/RE-209.jpg"
     ],
-    "pdf": "assets/pdf/products/RE-209.pdf"
+    "pdf": "assets/pdf/products/RE-209.pdf",
+    "weight": "0.715 gm"
   },
   {
     "id": 19,
@@ -566,8 +602,8 @@
     "priceValue": 270,
     "category": "Napkin Holder",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 9.75 inch x W: 5.50 inch x H: 5 inch",
     "features": [
       "Vistech Bruna Series",
       "Series No. BR-301",
@@ -578,15 +614,17 @@
       "Series Number": "BR-301",
       "Collection": "Bruna",
       "Material": "S.S 202",
-      "MRP": "₹270"
+      "MRP": "₹270",
+      "Weight": "0.213 gm",
+      "Dimensions": "L: 9.75 inch x W: 5.50 inch x H: 5 inch"
     },
     "description": "Napkin Holder from Vistech Bruna collection. Series BR-301. Material: S.S 202. MRP ₹270.",
-    
     "image": "assets/images/products/BR-301.jpg",
     "images": [
       "assets/images/products/BR-301.jpg"
     ],
-    "pdf": "assets/pdf/products/BR-301.pdf"
+    "pdf": "assets/pdf/products/BR-301.pdf",
+    "weight": "0.213 gm"
   },
   {
     "id": 20,
@@ -597,8 +635,8 @@
     "priceValue": 256,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5.50 inch x H: 5 inch",
     "features": [
       "Vistech Bruna Series",
       "Series No. BR-302",
@@ -609,15 +647,17 @@
       "Series Number": "BR-302",
       "Collection": "Bruna",
       "Material": "S.S 202",
-      "MRP": "₹256"
+      "MRP": "₹256",
+      "Weight": "0.196 gm",
+      "Dimensions": "L: 6 inch x W: 5.50 inch x H: 5 inch"
     },
     "description": "Soap Dish from Vistech Bruna collection. Series BR-302. Material: S.S 202. MRP ₹256.",
-    
     "image": "assets/images/products/BR-302.jpg",
     "images": [
       "assets/images/products/BR-302.jpg"
     ],
-    "pdf": "assets/pdf/products/BR-302.pdf"
+    "pdf": "assets/pdf/products/BR-302.pdf",
+    "weight": "0.196 gm"
   },
   {
     "id": 21,
@@ -628,8 +668,8 @@
     "priceValue": 190,
     "category": "Robe Hook",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 4.50 inch x W: 4 inch x H: 2.15 inch",
     "features": [
       "Vistech Bruna Series",
       "Series No. BR-303",
@@ -640,15 +680,17 @@
       "Series Number": "BR-303",
       "Collection": "Bruna",
       "Material": "S.S 202",
-      "MRP": "₹190"
+      "MRP": "₹190",
+      "Weight": "0.120 gm",
+      "Dimensions": "L: 4.50 inch x W: 4 inch x H: 2.15 inch"
     },
     "description": "Robe Hook from Vistech Bruna collection. Series BR-303. Material: S.S 202. MRP ₹190.",
-    
     "image": "assets/images/products/BR-303.jpg",
     "images": [
       "assets/images/products/BR-303.jpg"
     ],
-    "pdf": "assets/pdf/products/BR-303.pdf"
+    "pdf": "assets/pdf/products/BR-303.pdf",
+    "weight": "0.120 gm"
   },
   {
     "id": 22,
@@ -659,8 +701,8 @@
     "priceValue": 420,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 25.50 inch x W: 4.75 inch x H: 3.75 inch",
     "features": [
       "Vistech Bruna Series",
       "Series No. BR-304",
@@ -671,15 +713,17 @@
       "Series Number": "BR-304",
       "Collection": "Bruna",
       "Material": "S.S 202",
-      "MRP": "₹420"
+      "MRP": "₹420",
+      "Weight": "0.360 gm",
+      "Dimensions": "L: 25.50 inch x W: 4.75 inch x H: 3.75 inch"
     },
     "description": "Towel Stand from Vistech Bruna collection. Series BR-304. Material: S.S 202. MRP ₹420.",
-    
     "image": "assets/images/products/BR-304.jpg",
     "images": [
       "assets/images/products/BR-304.jpg"
     ],
-    "pdf": "assets/pdf/products/BR-304.pdf"
+    "pdf": "assets/pdf/products/BR-304.pdf",
+    "weight": "0.360 gm"
   },
   {
     "id": 23,
@@ -690,8 +734,8 @@
     "priceValue": 336,
     "category": "Tooth Brush Holder",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5.50 inch x H: 5 inch",
     "features": [
       "Vistech Bruna Series",
       "Series No. BR-305",
@@ -702,15 +746,17 @@
       "Series Number": "BR-305",
       "Collection": "Bruna",
       "Material": "S.S 202",
-      "MRP": "₹336"
+      "MRP": "₹336",
+      "Weight": "0.285 gm",
+      "Dimensions": "L: 6 inch x W: 5.50 inch x H: 5 inch"
     },
     "description": "Tooth Brush Holder from Vistech Bruna collection. Series BR-305. Material: S.S 202. MRP ₹336.",
-    
     "image": "assets/images/products/BR-305.jpg",
     "images": [
       "assets/images/products/BR-305.jpg"
     ],
-    "pdf": "assets/pdf/products/BR-305.pdf"
+    "pdf": "assets/pdf/products/BR-305.pdf",
+    "weight": "0.285 gm"
   },
   {
     "id": 24,
@@ -721,8 +767,8 @@
     "priceValue": 410,
     "category": "Soap Dispenser",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5.50 inch x H: 5 inch",
     "features": [
       "Vistech Bruna Series",
       "Series No. BR-306",
@@ -733,15 +779,17 @@
       "Series Number": "BR-306",
       "Collection": "Bruna",
       "Material": "S.S 202",
-      "MRP": "₹410"
+      "MRP": "₹410",
+      "Weight": "0.340 gm",
+      "Dimensions": "L: 6 inch x W: 5.50 inch x H: 5 inch"
     },
     "description": "Liquid Dispenser from Vistech Bruna collection. Series BR-306. Material: S.S 202. MRP ₹410.",
-    
     "image": "assets/images/products/BR-306.jpg",
     "images": [
       "assets/images/products/BR-306.jpg"
     ],
-    "pdf": "assets/pdf/products/BR-306.pdf"
+    "pdf": "assets/pdf/products/BR-306.pdf",
+    "weight": "0.340 gm"
   },
   {
     "id": 25,
@@ -752,8 +800,8 @@
     "priceValue": 440,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 9.75 inch x W: 5.50 inch x H: 5 inch",
     "features": [
       "Vistech Bruna Series",
       "Series No. BR-307",
@@ -764,15 +812,17 @@
       "Series Number": "BR-307",
       "Collection": "Bruna",
       "Material": "S.S 202",
-      "MRP": "₹440"
+      "MRP": "₹440",
+      "Weight": "0.465 gm",
+      "Dimensions": "L: 9.75 inch x W: 5.50 inch x H: 5 inch"
     },
     "description": "Soap Dish With Tooth Brush Holder from Vistech Bruna collection. Series BR-307. Material: S.S 202. MRP ₹440.",
-    
     "image": "assets/images/products/BR-307.jpg",
     "images": [
       "assets/images/products/BR-307.jpg"
     ],
-    "pdf": "assets/pdf/products/BR-307.pdf"
+    "pdf": "assets/pdf/products/BR-307.pdf",
+    "weight": "0.465 gm"
   },
   {
     "id": 26,
@@ -783,8 +833,8 @@
     "priceValue": 423,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 9.75 inch x W: 5.50 inch x H: 5 inch",
     "features": [
       "Vistech Bruna Series",
       "Series No. BR-308",
@@ -795,15 +845,17 @@
       "Series Number": "BR-308",
       "Collection": "Bruna",
       "Material": "S.S 202",
-      "MRP": "₹423"
+      "MRP": "₹423",
+      "Weight": "0.378 gm",
+      "Dimensions": "L: 9.75 inch x W: 5.50 inch x H: 5 inch"
     },
     "description": "Double Soap Dish from Vistech Bruna collection. Series BR-308. Material: S.S 202. MRP ₹423.",
-    
     "image": "assets/images/products/BR-308.jpg",
     "images": [
       "assets/images/products/BR-308.jpg"
     ],
-    "pdf": "assets/pdf/products/BR-308.pdf"
+    "pdf": "assets/pdf/products/BR-308.pdf",
+    "weight": "0.378 gm"
   },
   {
     "id": 27,
@@ -814,8 +866,8 @@
     "priceValue": 910,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 25.5 inch x W: 10 inch x H: 5 inch",
     "features": [
       "Vistech Bruna Series",
       "Series No. BR-309",
@@ -826,15 +878,17 @@
       "Series Number": "BR-309",
       "Collection": "Bruna",
       "Material": "S.S 202",
-      "MRP": "₹910"
+      "MRP": "₹910",
+      "Weight": "1 kg 0.150 gm",
+      "Dimensions": "L: 25.5 inch x W: 10 inch x H: 5 inch"
     },
     "description": "Towel Rack from Vistech Bruna collection. Series BR-309. Material: S.S 202. MRP ₹910.",
-    
     "image": "assets/images/products/BR-309.jpg",
     "images": [
       "assets/images/products/BR-309.jpg"
     ],
-    "pdf": "assets/pdf/products/BR-309.pdf"
+    "pdf": "assets/pdf/products/BR-309.pdf",
+    "weight": "1 kg 0.150 gm"
   },
   {
     "id": 28,
@@ -845,7 +899,7 @@
     "priceValue": 720,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
+    "finish": "Gloss",
     "dimensions": "As per catalogue",
     "features": [
       "Vistech Bruna Series",
@@ -857,15 +911,16 @@
       "Series Number": "BR-310",
       "Collection": "Bruna",
       "Material": "S.S 202",
-      "MRP": "₹720"
+      "MRP": "₹720",
+      "Weight": "0.785 gm"
     },
     "description": "Soap Dish With Tooth Brush Holder & Liquid Dispenser from Vistech Bruna collection. Series BR-310. Material: S.S 202. MRP ₹720.",
-    
     "image": "assets/images/products/BR-310.jpg",
     "images": [
       "assets/images/products/BR-310.jpg"
     ],
-    "pdf": "assets/pdf/products/BR-310.pdf"
+    "pdf": "assets/pdf/products/BR-310.pdf",
+    "weight": "0.785 gm"
   },
   {
     "id": 29,
@@ -876,8 +931,8 @@
     "priceValue": 220,
     "category": "Napkin Holder",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 4 inch",
     "features": [
       "Vistech Canata Series",
       "Series No. CA-401",
@@ -888,15 +943,17 @@
       "Series Number": "CA-401",
       "Collection": "Canata",
       "Material": "S.S 202",
-      "MRP": "₹220"
+      "MRP": "₹220",
+      "Weight": "0.320 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 4 inch"
     },
     "description": "Napkin Holder from Vistech Canata collection. Series CA-401. Material: S.S 202. MRP ₹220.",
-    
     "image": "assets/images/products/CA-401.jpg",
     "images": [
       "assets/images/products/CA-401.jpg"
     ],
-    "pdf": "assets/pdf/products/CA-401.pdf"
+    "pdf": "assets/pdf/products/CA-401.pdf",
+    "weight": "0.320 gm"
   },
   {
     "id": 30,
@@ -907,8 +964,8 @@
     "priceValue": 225,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 4 inch",
     "features": [
       "Vistech Canata Series",
       "Series No. CA-402",
@@ -919,15 +976,17 @@
       "Series Number": "CA-402",
       "Collection": "Canata",
       "Material": "S.S 202",
-      "MRP": "₹225"
+      "MRP": "₹225",
+      "Weight": "0.186 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 4 inch"
     },
     "description": "Soap Dish from Vistech Canata collection. Series CA-402. Material: S.S 202. MRP ₹225.",
-    
     "image": "assets/images/products/CA-402.jpg",
     "images": [
       "assets/images/products/CA-402.jpg"
     ],
-    "pdf": "assets/pdf/products/CA-402.pdf"
+    "pdf": "assets/pdf/products/CA-402.pdf",
+    "weight": "0.186 gm"
   },
   {
     "id": 31,
@@ -938,8 +997,8 @@
     "priceValue": 125,
     "category": "Robe Hook",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 3.50 inch x W: 2.50 inch x H: 2.50 inch",
     "features": [
       "Vistech Canata Series",
       "Series No. CA-403",
@@ -950,15 +1009,17 @@
       "Series Number": "CA-403",
       "Collection": "Canata",
       "Material": "S.S 202",
-      "MRP": "₹125"
+      "MRP": "₹125",
+      "Weight": "0.85 gm",
+      "Dimensions": "L: 3.50 inch x W: 2.50 inch x H: 2.50 inch"
     },
     "description": "Robe Hook from Vistech Canata collection. Series CA-403. Material: S.S 202. MRP ₹125.",
-    
     "image": "assets/images/products/CA-403.jpg",
     "images": [
       "assets/images/products/CA-403.jpg"
     ],
-    "pdf": "assets/pdf/products/CA-403.pdf"
+    "pdf": "assets/pdf/products/CA-403.pdf",
+    "weight": "0.85 gm"
   },
   {
     "id": 32,
@@ -969,8 +1030,8 @@
     "priceValue": 440,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 25 inch x W: 4 inch x H: 3.50 inch",
     "features": [
       "Vistech Canata Series",
       "Series No. CA-404",
@@ -981,15 +1042,17 @@
       "Series Number": "CA-404",
       "Collection": "Canata",
       "Material": "S.S 202",
-      "MRP": "₹440"
+      "MRP": "₹440",
+      "Weight": "0.450 gm",
+      "Dimensions": "L: 25 inch x W: 4 inch x H: 3.50 inch"
     },
     "description": "Towel Stand from Vistech Canata collection. Series CA-404. Material: S.S 202. MRP ₹440.",
-    
     "image": "assets/images/products/CA-404.jpg",
     "images": [
       "assets/images/products/CA-404.jpg"
     ],
-    "pdf": "assets/pdf/products/CA-404.pdf"
+    "pdf": "assets/pdf/products/CA-404.pdf",
+    "weight": "0.450 gm"
   },
   {
     "id": 33,
@@ -1000,8 +1063,8 @@
     "priceValue": 345,
     "category": "Tooth Brush Holder",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 4 inch",
     "features": [
       "Vistech Canata Series",
       "Series No. CA-405",
@@ -1012,15 +1075,17 @@
       "Series Number": "CA-405",
       "Collection": "Canata",
       "Material": "S.S 202",
-      "MRP": "₹345"
+      "MRP": "₹345",
+      "Weight": "0.276 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 4 inch"
     },
     "description": "Tooth Brush Holder from Vistech Canata collection. Series CA-405. Material: S.S 202. MRP ₹345.",
-    
     "image": "assets/images/products/CA-405.jpg",
     "images": [
       "assets/images/products/CA-405.jpg"
     ],
-    "pdf": "assets/pdf/products/CA-405.pdf"
+    "pdf": "assets/pdf/products/CA-405.pdf",
+    "weight": "0.276 gm"
   },
   {
     "id": 34,
@@ -1031,8 +1096,8 @@
     "priceValue": 475,
     "category": "Soap Dispenser",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 4 inch",
     "features": [
       "Vistech Canata Series",
       "Series No. CA-406",
@@ -1043,15 +1108,17 @@
       "Series Number": "CA-406",
       "Collection": "Canata",
       "Material": "S.S 202",
-      "MRP": "₹475"
+      "MRP": "₹475",
+      "Weight": "0.315 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 4 inch"
     },
     "description": "Liquid Dispenser from Vistech Canata collection. Series CA-406. Material: S.S 202. MRP ₹475.",
-    
     "image": "assets/images/products/CA-406.jpg",
     "images": [
       "assets/images/products/CA-406.jpg"
     ],
-    "pdf": "assets/pdf/products/CA-406.pdf"
+    "pdf": "assets/pdf/products/CA-406.pdf",
+    "weight": "0.315 gm"
   },
   {
     "id": 35,
@@ -1062,8 +1129,8 @@
     "priceValue": 480,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch",
     "features": [
       "Vistech Canata Series",
       "Series No. CA-407",
@@ -1074,15 +1141,17 @@
       "Series Number": "CA-407",
       "Collection": "Canata",
       "Material": "S.S 202",
-      "MRP": "₹480"
+      "MRP": "₹480",
+      "Weight": "0.428 gm",
+      "Dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch"
     },
     "description": "Soap Dish With Tooth Brush Holder from Vistech Canata collection. Series CA-407. Material: S.S 202. MRP ₹480.",
-    
     "image": "assets/images/products/CA-407.jpg",
     "images": [
       "assets/images/products/CA-407.jpg"
     ],
-    "pdf": "assets/pdf/products/CA-407.pdf"
+    "pdf": "assets/pdf/products/CA-407.pdf",
+    "weight": "0.428 gm"
   },
   {
     "id": 36,
@@ -1093,8 +1162,8 @@
     "priceValue": 345,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch",
     "features": [
       "Vistech Canata Series",
       "Series No. CA-408",
@@ -1105,15 +1174,17 @@
       "Series Number": "CA-408",
       "Collection": "Canata",
       "Material": "S.S 202",
-      "MRP": "₹345"
+      "MRP": "₹345",
+      "Weight": "0.331 gm",
+      "Dimensions": "L: 9.50 inch x W: 5.50 inch x H: 4 inch"
     },
     "description": "Double Soap Dish from Vistech Canata collection. Series CA-408. Material: S.S 202. MRP ₹345.",
-    
     "image": "assets/images/products/CA-408.jpg",
     "images": [
       "assets/images/products/CA-408.jpg"
     ],
-    "pdf": "assets/pdf/products/CA-408.pdf"
+    "pdf": "assets/pdf/products/CA-408.pdf",
+    "weight": "0.331 gm"
   },
   {
     "id": 37,
@@ -1124,8 +1195,8 @@
     "priceValue": 790,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 25.5 inch x W: 10 inch x H: 5 inch",
     "features": [
       "Vistech Canata Series",
       "Series No. CA-409",
@@ -1136,15 +1207,17 @@
       "Series Number": "CA-409",
       "Collection": "Canata",
       "Material": "S.S 202",
-      "MRP": "₹790"
+      "MRP": "₹790",
+      "Weight": "0.720 gm",
+      "Dimensions": "L: 25.5 inch x W: 10 inch x H: 5 inch"
     },
     "description": "Towel Rack from Vistech Canata collection. Series CA-409. Material: S.S 202. MRP ₹790.",
-    
     "image": "assets/images/products/CA-409.jpg",
     "images": [
       "assets/images/products/CA-409.jpg"
     ],
-    "pdf": "assets/pdf/products/CA-409.pdf"
+    "pdf": "assets/pdf/products/CA-409.pdf",
+    "weight": "0.720 gm"
   },
   {
     "id": 38,
@@ -1155,8 +1228,8 @@
     "priceValue": 347,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 9 inch x W: 5.50 inch x H: 4.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 501",
@@ -1167,20 +1240,41 @@
       "Series Number": "501",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹347 (Gloss) | ₹400 (Rose Gold/Black)"
+      "MRP": "₹347 (Gloss) | ₹400 (Rose Gold/Black)",
+      "Weight": "0.307 gm",
+      "Dimensions": "L: 9 inch x W: 5.50 inch x H: 4.50 inch"
     },
     "description": "Soap Dish With Tooth Brush Holder from Vistech Vistech collection. Series 501. Material: S.S 202. MRP ₹347 (Gloss) | ₹400 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/501.jpg",
+    "image": "assets/images/products/501-GL.jpg",
     "images": [
-      "assets/images/products/501.jpg"
+      "assets/images/products/501-GL.jpg",
+      "assets/images/products/501-RG.png",
+      "assets/images/products/501-BL.png"
     ],
     "pdf": "assets/pdf/products/501.pdf",
     "finishes": {
       "Gloss": 347,
       "Rose Gold": 400,
       "Black": 400
-    }
+    },
+    "weight": "0.307 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/501-GL.jpg"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/501-RG.png"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/501-BL.png"
+      }
+    ]
   },
   {
     "id": 39,
@@ -1191,8 +1285,8 @@
     "priceValue": 425,
     "category": "Soap Dispenser",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 9 inch x W: 5.50 inch x H: 4.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 502",
@@ -1203,20 +1297,41 @@
       "Series Number": "502",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹425 (Gloss) | ₹475 (Rose Gold/Black)"
+      "MRP": "₹425 (Gloss) | ₹475 (Rose Gold/Black)",
+      "Weight": "0.300 gm",
+      "Dimensions": "L: 9 inch x W: 5.50 inch x H: 4.50 inch"
     },
     "description": "Soap Dish With Liquid Dispenser from Vistech Vistech collection. Series 502. Material: S.S 202. MRP ₹425 (Gloss) | ₹475 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/502.jpg",
+    "image": "assets/images/products/502-GL.jpg",
     "images": [
-      "assets/images/products/502.jpg"
+      "assets/images/products/502-GL.jpg",
+      "assets/images/products/502-RG.png",
+      "assets/images/products/502-BL.png"
     ],
     "pdf": "assets/pdf/products/502.pdf",
     "finishes": {
       "Gloss": 425,
       "Rose Gold": 475,
       "Black": 475
-    }
+    },
+    "weight": "0.300 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/502-GL.jpg"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/502-RG.png"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/502-BL.png"
+      }
+    ]
   },
   {
     "id": 40,
@@ -1227,8 +1342,8 @@
     "priceValue": 347,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 9 inch x W: 5.50 inch x H: 4.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 503",
@@ -1239,20 +1354,41 @@
       "Series Number": "503",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹347 (Gloss) | ₹400 (Rose Gold/Black)"
+      "MRP": "₹347 (Gloss) | ₹400 (Rose Gold/Black)",
+      "Weight": "0.303 gm",
+      "Dimensions": "L: 9 inch x W: 5.50 inch x H: 4.50 inch"
     },
     "description": "Double Soap Dish from Vistech Vistech collection. Series 503. Material: S.S 202. MRP ₹347 (Gloss) | ₹400 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/503.jpg",
+    "image": "assets/images/products/503-GL.jpg",
     "images": [
-      "assets/images/products/503.jpg"
+      "assets/images/products/503-GL.jpg",
+      "assets/images/products/503-RG.png",
+      "assets/images/products/503-BL.jpg"
     ],
     "pdf": "assets/pdf/products/503.pdf",
     "finishes": {
       "Gloss": 347,
       "Rose Gold": 400,
       "Black": 400
-    }
+    },
+    "weight": "0.303 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/503-GL.jpg"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/503-RG.png"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/503-BL.jpg"
+      }
+    ]
   },
   {
     "id": 41,
@@ -1263,8 +1399,8 @@
     "priceValue": 425,
     "category": "Soap Dispenser",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 9 inch x W: 5.50 inch x H: 4.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 504",
@@ -1275,20 +1411,41 @@
       "Series Number": "504",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹425 (Gloss) | ₹475 (Rose Gold/Black)"
+      "MRP": "₹425 (Gloss) | ₹475 (Rose Gold/Black)",
+      "Weight": "0.304 gm",
+      "Dimensions": "L: 9 inch x W: 5.50 inch x H: 4.50 inch"
     },
     "description": "Liquid Dispenser With Tooth Brush Holder from Vistech Vistech collection. Series 504. Material: S.S 202. MRP ₹425 (Gloss) | ₹475 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/504.jpg",
+    "image": "assets/images/products/504-GL.png",
     "images": [
-      "assets/images/products/504.jpg"
+      "assets/images/products/504-GL.png",
+      "assets/images/products/504-RG.jpg",
+      "assets/images/products/504-BL.png"
     ],
     "pdf": "assets/pdf/products/504.pdf",
     "finishes": {
       "Gloss": 425,
       "Rose Gold": 475,
       "Black": 475
-    }
+    },
+    "weight": "0.304 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/504-GL.png"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/504-RG.jpg"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/504-BL.png"
+      }
+    ]
   },
   {
     "id": 42,
@@ -1299,8 +1456,8 @@
     "priceValue": 635,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 5.75 inch x W: 5.15 inch x H: 4.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 505",
@@ -1311,20 +1468,41 @@
       "Series Number": "505",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹635 (Gloss) | ₹700 (Rose Gold/Black)"
+      "MRP": "₹635 (Gloss) | ₹700 (Rose Gold/Black)",
+      "Weight": "0.542 gm",
+      "Dimensions": "L: 5.75 inch x W: 5.15 inch x H: 4.50 inch"
     },
     "description": "Three In One - Soap Dish With Tooth Brush Holder from Vistech Vistech collection. Series 505. Material: S.S 202. MRP ₹635 (Gloss) | ₹700 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/505.jpg",
+    "image": "assets/images/products/505-GL.jpg",
     "images": [
-      "assets/images/products/505.jpg"
+      "assets/images/products/505-GL.jpg",
+      "assets/images/products/505-RG.png",
+      "assets/images/products/505-BL.png"
     ],
     "pdf": "assets/pdf/products/505.pdf",
     "finishes": {
       "Gloss": 635,
       "Rose Gold": 700,
       "Black": 700
-    }
+    },
+    "weight": "0.542 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/505-GL.jpg"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/505-RG.png"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/505-BL.png"
+      }
+    ]
   },
   {
     "id": 43,
@@ -1335,8 +1513,8 @@
     "priceValue": 790,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 18.50 inch x W: 5.15 inch x H: 4.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 506",
@@ -1347,20 +1525,41 @@
       "Series Number": "506",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹790 (Gloss) | ₹870 (Rose Gold/Black)"
+      "MRP": "₹790 (Gloss) | ₹870 (Rose Gold/Black)",
+      "Weight": "0.660 gm",
+      "Dimensions": "L: 18.50 inch x W: 5.15 inch x H: 4.50 inch"
     },
     "description": "Four In One - Soap Dish With Tooth Brush Holder from Vistech Vistech collection. Series 506. Material: S.S 202. MRP ₹790 (Gloss) | ₹870 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/506.jpg",
+    "image": "assets/images/products/506-GL.png",
     "images": [
-      "assets/images/products/506.jpg"
+      "assets/images/products/506-GL.png",
+      "assets/images/products/506-RG.jpg",
+      "assets/images/products/506-BL.png"
     ],
     "pdf": "assets/pdf/products/506.pdf",
     "finishes": {
       "Gloss": 790,
       "Rose Gold": 870,
       "Black": 870
-    }
+    },
+    "weight": "0.660 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/506-GL.png"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/506-RG.jpg"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/506-BL.png"
+      }
+    ]
   },
   {
     "id": 44,
@@ -1371,8 +1570,8 @@
     "priceValue": 870,
     "category": "Soap Dispenser",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 18.50 inch x W: 5.15 inch x H: 4.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 507",
@@ -1383,20 +1582,41 @@
       "Series Number": "507",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹870 (Gloss) | ₹955 (Rose Gold/Black)"
+      "MRP": "₹870 (Gloss) | ₹955 (Rose Gold/Black)",
+      "Weight": "0.655 gm",
+      "Dimensions": "L: 18.50 inch x W: 5.15 inch x H: 4.50 inch"
     },
     "description": "Four In One - Dispenser With Tooth Brush Holder from Vistech Vistech collection. Series 507. Material: S.S 202. MRP ₹870 (Gloss) | ₹955 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/507.jpg",
+    "image": "assets/images/products/507-GL.jpg",
     "images": [
-      "assets/images/products/507.jpg"
+      "assets/images/products/507-GL.jpg",
+      "assets/images/products/507-RG.png",
+      "assets/images/products/507-BL.png"
     ],
     "pdf": "assets/pdf/products/507.pdf",
     "finishes": {
       "Gloss": 870,
       "Rose Gold": 955,
       "Black": 955
-    }
+    },
+    "weight": "0.655 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/507-GL.jpg"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/507-RG.png"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/507-BL.png"
+      }
+    ]
   },
   {
     "id": 45,
@@ -1407,7 +1627,7 @@
     "priceValue": 1020,
     "category": "Corner Shelf",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
+    "finish": "Gloss",
     "dimensions": "As per catalogue",
     "features": [
       "Vistech Vistech Series",
@@ -1419,15 +1639,16 @@
       "Series Number": "508",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹1,020"
+      "MRP": "₹1,020",
+      "Weight": "0.941 gm"
     },
     "description": "Four In One - Double Step from Vistech Vistech collection. Series 508. Material: S.S 202. MRP ₹1,020.",
-    
     "image": "assets/images/products/508.jpg",
     "images": [
       "assets/images/products/508.jpg"
     ],
-    "pdf": "assets/pdf/products/508.pdf"
+    "pdf": "assets/pdf/products/508.pdf",
+    "weight": "0.941 gm"
   },
   {
     "id": 46,
@@ -1438,7 +1659,7 @@
     "priceValue": 500,
     "category": "Corner Shelf",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
+    "finish": "Gloss",
     "dimensions": "As per catalogue",
     "features": [
       "Vistech Vistech Series",
@@ -1450,15 +1671,16 @@
       "Series Number": "509",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹500"
+      "MRP": "₹500",
+      "Weight": "0.519 gm"
     },
     "description": "Single Shelf from Vistech Vistech collection. Series 509. Material: S.S 202. MRP ₹500.",
-    
     "image": "assets/images/products/509.jpg",
     "images": [
       "assets/images/products/509.jpg"
     ],
-    "pdf": "assets/pdf/products/509.pdf"
+    "pdf": "assets/pdf/products/509.pdf",
+    "weight": "0.519 gm"
   },
   {
     "id": 47,
@@ -1469,8 +1691,8 @@
     "priceValue": 1000,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 16 inch x W: 9 inch x H: 5 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 510",
@@ -1481,15 +1703,17 @@
       "Series Number": "510",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹1,000"
+      "MRP": "₹1,000",
+      "Weight": "1 kg 0.25 gm",
+      "Dimensions": "L: 16 inch x W: 9 inch x H: 5 inch"
     },
     "description": "Single Shelf With Towel Rod from Vistech Vistech collection. Series 510. Material: S.S 202. MRP ₹1,000.",
-    
     "image": "assets/images/products/510.jpg",
     "images": [
       "assets/images/products/510.jpg"
     ],
-    "pdf": "assets/pdf/products/510.pdf"
+    "pdf": "assets/pdf/products/510.pdf",
+    "weight": "1 kg 0.25 gm"
   },
   {
     "id": 48,
@@ -1500,8 +1724,8 @@
     "priceValue": 1385,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 17.15 inch x W: 16.15 inch x H: 5.15 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 511",
@@ -1512,15 +1736,17 @@
       "Series Number": "511",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹1,385"
+      "MRP": "₹1,385",
+      "Weight": "1 kg 0.571 gm",
+      "Dimensions": "L: 17.15 inch x W: 16.15 inch x H: 5.15 inch"
     },
     "description": "Double Shelf With Towel Rod from Vistech Vistech collection. Series 511. Material: S.S 202. MRP ₹1,385.",
-    
     "image": "assets/images/products/511.jpg",
     "images": [
       "assets/images/products/511.jpg"
     ],
-    "pdf": "assets/pdf/products/511.pdf"
+    "pdf": "assets/pdf/products/511.pdf",
+    "weight": "1 kg 0.571 gm"
   },
   {
     "id": 49,
@@ -1531,8 +1757,8 @@
     "priceValue": 482,
     "category": "Corner Shelf",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 13 – 19 inch x W: 5.50 inch x H: 2.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 512",
@@ -1543,10 +1769,11 @@
       "Series Number": "512",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹482 (5×12) | ₹520 (5×15) | ₹559 (5×18)"
+      "MRP": "₹482 (5×12) | ₹520 (5×15) | ₹559 (5×18)",
+      "Weight": "0.412 – 0.705 gm",
+      "Dimensions": "L: 13 – 19 inch x W: 5.50 inch x H: 2.50 inch"
     },
     "description": "Single Shelf (Sizes) from Vistech Vistech collection. Series 512. Material: S.S 202. MRP ₹482 (5×12) | ₹520 (5×15) | ₹559 (5×18).",
-    
     "image": "assets/images/products/512.jpg",
     "images": [
       "assets/images/products/512.jpg"
@@ -1556,7 +1783,8 @@
       "5x12": 482,
       "5x15": 520,
       "5x18": 559
-    }
+    },
+    "weight": "0.412 – 0.705 gm"
   },
   {
     "id": 50,
@@ -1567,8 +1795,8 @@
     "priceValue": 530,
     "category": "Corner Shelf",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 10 inch x W: 9.75 inch x H: 2.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 513",
@@ -1579,20 +1807,41 @@
       "Series Number": "513",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹530 (Gloss) | ₹600 (Rose Gold/Black)"
+      "MRP": "₹530 (Gloss) | ₹600 (Rose Gold/Black)",
+      "Weight": "0.470 gm",
+      "Dimensions": "L: 10 inch x W: 9.75 inch x H: 2.50 inch"
     },
     "description": "Corner Shelf 9×9 from Vistech Vistech collection. Series 513. Material: S.S 202. MRP ₹530 (Gloss) | ₹600 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/513.jpg",
+    "image": "assets/images/products/513-GL.png",
     "images": [
-      "assets/images/products/513.jpg"
+      "assets/images/products/513-GL.png",
+      "assets/images/products/513-RG.jpg",
+      "assets/images/products/513-BL.png"
     ],
     "pdf": "assets/pdf/products/513.pdf",
     "finishes": {
       "Gloss": 530,
       "Rose Gold": 600,
       "Black": 600
-    }
+    },
+    "weight": "0.470 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/513-GL.png"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/513-RG.jpg"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/513-BL.png"
+      }
+    ]
   },
   {
     "id": 51,
@@ -1603,8 +1852,8 @@
     "priceValue": 600,
     "category": "Corner Shelf",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 13 inch x W: 12.50 inch x H: 2.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 513-12",
@@ -1615,20 +1864,41 @@
       "Series Number": "513-12",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹600 (Gloss) | ₹710 (Rose Gold/Black)"
+      "MRP": "₹600 (Gloss) | ₹710 (Rose Gold/Black)",
+      "Weight": "0.740 gm",
+      "Dimensions": "L: 13 inch x W: 12.50 inch x H: 2.50 inch"
     },
     "description": "Corner Shelf 12×12 from Vistech Vistech collection. Series 513-12. Material: S.S 202. MRP ₹600 (Gloss) | ₹710 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/513-12.jpg",
+    "image": "assets/images/products/513-12-GL.jpg",
     "images": [
-      "assets/images/products/513-12.jpg"
+      "assets/images/products/513-12-GL.jpg",
+      "assets/images/products/513-12-RG.png",
+      "assets/images/products/513-12-BL.png"
     ],
     "pdf": "assets/pdf/products/513-12.pdf",
     "finishes": {
       "Gloss": 600,
       "Rose Gold": 710,
       "Black": 710
-    }
+    },
+    "weight": "0.740 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/513-12-GL.jpg"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/513-12-RG.png"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/513-12-BL.png"
+      }
+    ]
   },
   {
     "id": 52,
@@ -1639,8 +1909,8 @@
     "priceValue": 1300,
     "category": "Towel Rod",
     "material": "S.S 304",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Chrome",
+    "dimensions": "L: 26 inch x W: 13 inch x H: 2 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 514",
@@ -1651,15 +1921,17 @@
       "Series Number": "514",
       "Collection": "Vistech",
       "Material": "S.S 304",
-      "MRP": "₹1,300 (CP 24\")"
+      "MRP": "₹1,300 (CP 24\")",
+      "Weight": "1 kg 0.225 gm",
+      "Dimensions": "L: 26 inch x W: 13 inch x H: 2 inch"
     },
     "description": "Round Rack 24\" from Vistech Vistech collection. Series 514. Material: S.S 304. MRP ₹1,300 (CP 24\").",
-    
     "image": "assets/images/products/514.jpg",
     "images": [
       "assets/images/products/514.jpg"
     ],
-    "pdf": "assets/pdf/products/514.pdf"
+    "pdf": "assets/pdf/products/514.pdf",
+    "weight": "1 kg 0.225 gm"
   },
   {
     "id": 53,
@@ -1670,8 +1942,8 @@
     "priceValue": 1650,
     "category": "Towel Rod",
     "material": "S.S 304",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Chrome / Black",
+    "dimensions": "L: 25 inch x W: 17.15 inch x H: 2.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 515",
@@ -1682,15 +1954,17 @@
       "Series Number": "515",
       "Collection": "Vistech",
       "Material": "S.S 304",
-      "MRP": "₹1,650 (CP) | ₹1,980 (Black 24\")"
+      "MRP": "₹1,650 (CP) | ₹1,980 (Black 24\")",
+      "Weight": "1 kg 0.460 gm",
+      "Dimensions": "L: 25 inch x W: 17.15 inch x H: 2.50 inch"
     },
     "description": "Folding Rack 24\" from Vistech Vistech collection. Series 515. Material: S.S 304. MRP ₹1,650 (CP) | ₹1,980 (Black 24\").",
-    
     "image": "assets/images/products/515.jpg",
     "images": [
       "assets/images/products/515.jpg"
     ],
-    "pdf": "assets/pdf/products/515.pdf"
+    "pdf": "assets/pdf/products/515.pdf",
+    "weight": "1 kg 0.460 gm"
   },
   {
     "id": 54,
@@ -1701,8 +1975,8 @@
     "priceValue": 1100,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 20 – 26 inch x W: 13 inch x H: 2 – 2.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 516",
@@ -1713,10 +1987,11 @@
       "Series Number": "516",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹1,100 (18\") | ₹1,160 (24\")"
+      "MRP": "₹1,100 (18\") | ₹1,160 (24\")",
+      "Weight": "1 kg 0.172 – 0.20 gm",
+      "Dimensions": "L: 20 – 26 inch x W: 13 inch x H: 2 – 2.50 inch"
     },
     "description": "Square Rack from Vistech Vistech collection. Series 516. Material: S.S 202. MRP ₹1,100 (18\") | ₹1,160 (24\").",
-    
     "image": "assets/images/products/516.jpg",
     "images": [
       "assets/images/products/516.jpg"
@@ -1725,7 +2000,8 @@
     "sizes": {
       "18": 1100,
       "24": 1160
-    }
+    },
+    "weight": "1 kg 0.172 – 0.20 gm"
   },
   {
     "id": 55,
@@ -1736,8 +2012,8 @@
     "priceValue": 1000,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 20 – 26 inch x W: 13 inch x H: 2 – 2.50 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 517",
@@ -1748,10 +2024,11 @@
       "Series Number": "517",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹1,000 (18\") | ₹1,060 (24\")"
+      "MRP": "₹1,000 (18\") | ₹1,060 (24\")",
+      "Weight": "0.950 gm – 1 kg 0.93 gm",
+      "Dimensions": "L: 20 – 26 inch x W: 13 inch x H: 2 – 2.50 inch"
     },
     "description": "Round Rack from Vistech Vistech collection. Series 517. Material: S.S 202. MRP ₹1,000 (18\") | ₹1,060 (24\").",
-    
     "image": "assets/images/products/517.jpg",
     "images": [
       "assets/images/products/517.jpg"
@@ -1760,7 +2037,8 @@
     "sizes": {
       "18": 1000,
       "24": 1060
-    }
+    },
+    "weight": "0.950 gm – 1 kg 0.93 gm"
   },
   {
     "id": 56,
@@ -1771,8 +2049,8 @@
     "priceValue": 193,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "Length: 12 – 36 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 518",
@@ -1783,15 +2061,17 @@
       "Series Number": "518",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹193 (12\") – ₹270 (36\")"
+      "MRP": "₹193 (12\") – ₹270 (36\")",
+      "Weight": "0.227 – 0.362 gm",
+      "Dimensions": "Length: 12 – 36 inch"
     },
     "description": "Towel Rod from Vistech Vistech collection. Series 518. Material: S.S 202. MRP ₹193 (12\") – ₹270 (36\").",
-    
     "image": "assets/images/products/518.jpg",
     "images": [
       "assets/images/products/518.jpg"
     ],
-    "pdf": "assets/pdf/products/518.pdf"
+    "pdf": "assets/pdf/products/518.pdf",
+    "weight": "0.227 – 0.362 gm"
   },
   {
     "id": 57,
@@ -1802,8 +2082,8 @@
     "priceValue": 270,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "Length: 12 – 36 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 519",
@@ -1814,15 +2094,17 @@
       "Series Number": "519",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹270 (12\") – ₹424 (36\")"
+      "MRP": "₹270 (12\") – ₹424 (36\")",
+      "Weight": "0.489 – 0.670 gm",
+      "Dimensions": "Length: 12 – 36 inch"
     },
     "description": "Solid Towel Rod from Vistech Vistech collection. Series 519. Material: S.S 202. MRP ₹270 (12\") – ₹424 (36\").",
-    
     "image": "assets/images/products/519.jpg",
     "images": [
       "assets/images/products/519.jpg"
     ],
-    "pdf": "assets/pdf/products/519.pdf"
+    "pdf": "assets/pdf/products/519.pdf",
+    "weight": "0.489 – 0.670 gm"
   },
   {
     "id": 58,
@@ -1833,7 +2115,7 @@
     "priceValue": 212,
     "category": "Towel Rod",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
+    "finish": "Gloss",
     "dimensions": "As per catalogue",
     "features": [
       "Vistech Vistech Series",
@@ -1848,7 +2130,6 @@
       "MRP": "₹212"
     },
     "description": "Square & Round ABS Towel Rod from Vistech Vistech collection. Series 520. Material: S.S 202. MRP ₹212.",
-    
     "image": "assets/images/products/520.jpg",
     "images": [
       "assets/images/products/520.jpg"
@@ -1864,7 +2145,7 @@
     "priceValue": 610,
     "category": "Napkin Holder",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
+    "finish": "Gloss",
     "dimensions": "As per catalogue",
     "features": [
       "Vistech Vistech Series",
@@ -1876,15 +2157,16 @@
       "Series Number": "521",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹610"
+      "MRP": "₹610",
+      "Weight": "0.560 gm"
     },
     "description": "Four Step Napkin Stand from Vistech Vistech collection. Series 521. Material: S.S 202. MRP ₹610.",
-    
     "image": "assets/images/products/521.jpg",
     "images": [
       "assets/images/products/521.jpg"
     ],
-    "pdf": "assets/pdf/products/521.pdf"
+    "pdf": "assets/pdf/products/521.pdf",
+    "weight": "0.560 gm"
   },
   {
     "id": 60,
@@ -1895,8 +2177,8 @@
     "priceValue": 286,
     "category": "Soap Dispenser",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 3.15 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 522",
@@ -1907,20 +2189,41 @@
       "Series Number": "522",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹286 (Gloss) | ₹326 (Rose Gold/Black)"
+      "MRP": "₹286 (Gloss) | ₹326 (Rose Gold/Black)",
+      "Weight": "0.149 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 3.15 inch"
     },
     "description": "Single One Liquid Dispenser from Vistech Vistech collection. Series 522. Material: S.S 202. MRP ₹286 (Gloss) | ₹326 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/522.jpg",
+    "image": "assets/images/products/522-GL.png",
     "images": [
-      "assets/images/products/522.jpg"
+      "assets/images/products/522-GL.png",
+      "assets/images/products/522-RG.jpg",
+      "assets/images/products/522-BL.png"
     ],
     "pdf": "assets/pdf/products/522.pdf",
     "finishes": {
       "Gloss": 286,
       "Rose Gold": 326,
       "Black": 326
-    }
+    },
+    "weight": "0.149 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/522-GL.png"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/522-RG.jpg"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/522-BL.png"
+      }
+    ]
   },
   {
     "id": 61,
@@ -1931,8 +2234,8 @@
     "priceValue": 225,
     "category": "Tooth Brush Holder",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 3.15 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 523",
@@ -1943,20 +2246,41 @@
       "Series Number": "523",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹225 (Gloss) | ₹265 (Rose Gold/Black)"
+      "MRP": "₹225 (Gloss) | ₹265 (Rose Gold/Black)",
+      "Weight": "0.160 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 3.15 inch"
     },
     "description": "Single One Tooth Brush Holder from Vistech Vistech collection. Series 523. Material: S.S 202. MRP ₹225 (Gloss) | ₹265 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/523.jpg",
+    "image": "assets/images/products/523-GL.png",
     "images": [
-      "assets/images/products/523.jpg"
+      "assets/images/products/523-GL.png",
+      "assets/images/products/523-RG.png",
+      "assets/images/products/523-BL.png"
     ],
     "pdf": "assets/pdf/products/523.pdf",
     "finishes": {
       "Gloss": 225,
       "Rose Gold": 265,
       "Black": 265
-    }
+    },
+    "weight": "0.160 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/523-GL.png"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/523-RG.png"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/523-BL.png"
+      }
+    ]
   },
   {
     "id": 62,
@@ -1967,8 +2291,8 @@
     "priceValue": 225,
     "category": "Soap Dish",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss / Rose Gold / Black (as per model)",
+    "dimensions": "L: 6 inch x W: 5 inch x H: 3.15 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. 524",
@@ -1979,20 +2303,41 @@
       "Series Number": "524",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹225 (Gloss) | ₹265 (Rose Gold/Black)"
+      "MRP": "₹225 (Gloss) | ₹265 (Rose Gold/Black)",
+      "Weight": "0.150 gm",
+      "Dimensions": "L: 6 inch x W: 5 inch x H: 3.15 inch"
     },
     "description": "Single One Soap Dish from Vistech Vistech collection. Series 524. Material: S.S 202. MRP ₹225 (Gloss) | ₹265 (Rose Gold/Black).",
-    
-    "image": "assets/images/products/524.jpg",
+    "image": "assets/images/products/524-GL.jpg",
     "images": [
-      "assets/images/products/524.jpg"
+      "assets/images/products/524-GL.jpg",
+      "assets/images/products/524-RG.png",
+      "assets/images/products/524-BL.png"
     ],
     "pdf": "assets/pdf/products/524.pdf",
     "finishes": {
       "Gloss": 225,
       "Rose Gold": 265,
       "Black": 265
-    }
+    },
+    "weight": "0.150 gm",
+    "finishImages": [
+      {
+        "finish": "Glossy",
+        "suffix": "GL",
+        "image": "assets/images/products/524-GL.jpg"
+      },
+      {
+        "finish": "Rose Gold",
+        "suffix": "RG",
+        "image": "assets/images/products/524-RG.png"
+      },
+      {
+        "finish": "Black",
+        "suffix": "BL",
+        "image": "assets/images/products/524-BL.png"
+      }
+    ]
   },
   {
     "id": 63,
@@ -2003,7 +2348,7 @@
     "priceValue": 660,
     "category": "Tissue Holder",
     "material": "S.S 304",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
+    "finish": "Chrome",
     "dimensions": "As per catalogue",
     "features": [
       "Vistech Vistech Series",
@@ -2015,15 +2360,16 @@
       "Series Number": "525",
       "Collection": "Vistech",
       "Material": "S.S 304",
-      "MRP": "₹660 (CP)"
+      "MRP": "₹660 (CP)",
+      "Weight": "0.348 gm"
     },
     "description": "Toilet Paper Holder from Vistech Vistech collection. Series 525. Material: S.S 304. MRP ₹660 (CP).",
-    
     "image": "assets/images/products/525.jpg",
     "images": [
       "assets/images/products/525.jpg"
     ],
-    "pdf": "assets/pdf/products/525.pdf"
+    "pdf": "assets/pdf/products/525.pdf",
+    "weight": "0.348 gm"
   },
   {
     "id": 64,
@@ -2034,8 +2380,8 @@
     "priceValue": 330,
     "category": "Tissue Holder",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 6.50 inch x W: 4 inch x H: 3 inch",
     "features": [
       "Vistech Vistech Series",
       "Series No. KT-526",
@@ -2046,15 +2392,17 @@
       "Series Number": "KT-526",
       "Collection": "Vistech",
       "Material": "S.S 202",
-      "MRP": "₹330"
+      "MRP": "₹330",
+      "Weight": "0.256 gm",
+      "Dimensions": "L: 6.50 inch x W: 4 inch x H: 3 inch"
     },
     "description": "Toilet Paper Holder from Vistech Vistech collection. Series KT-526. Material: S.S 202. MRP ₹330.",
-    
     "image": "assets/images/products/KT-526.jpg",
     "images": [
       "assets/images/products/KT-526.jpg"
     ],
-    "pdf": "assets/pdf/products/KT-526.pdf"
+    "pdf": "assets/pdf/products/KT-526.pdf",
+    "weight": "0.256 gm"
   },
   {
     "id": 65,
@@ -2065,8 +2413,8 @@
     "priceValue": 770,
     "category": "Kitchen Accessories",
     "material": "S.S 202",
-    "finish": "Chrome / Gloss / Rose Gold / Black (as per model)",
-    "dimensions": "As per catalogue",
+    "finish": "Gloss",
+    "dimensions": "L: 5.75 inch x W: 5.15 inch x H: 4.50 inch",
     "features": [
       "Vistech Kitchen Series",
       "Series No. KT-527",
@@ -2077,14 +2425,16 @@
       "Series Number": "KT-527",
       "Collection": "Kitchen",
       "Material": "S.S 202",
-      "MRP": "₹770"
+      "MRP": "₹770",
+      "Weight": "0.589 gm",
+      "Dimensions": "L: 5.75 inch x W: 5.15 inch x H: 4.50 inch"
     },
     "description": "Kitchen Cutlery Holder from Vistech Kitchen collection. Series KT-527. Material: S.S 202. MRP ₹770.",
-    
     "image": "assets/images/products/KT-527.jpg",
     "images": [
       "assets/images/products/KT-527.jpg"
     ],
-    "pdf": "assets/pdf/products/KT-527.pdf"
+    "pdf": "assets/pdf/products/KT-527.pdf",
+    "weight": "0.589 gm"
   }
 ]
