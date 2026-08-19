@@ -10,8 +10,16 @@
     {
       "name": "verenza",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "5500", "--directory", "D:/verenza bath web"],
-      "port": 5500
+      "runtimeArgs": ["-m", "http.server", "5731", "--directory", "D:/verenza bath web"],
+      "port": 5731,
+      "autoPort": true
+    },
+    {
+      "name": "verenza-next",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "D:/verenza-nextjs", "run", "dev", "--", "-p", "3247"],
+      "port": 3247,
+      "autoPort": true
     }
   ]
 }

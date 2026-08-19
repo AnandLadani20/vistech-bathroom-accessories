@@ -195,8 +195,8 @@
     var timer = null;
     var locked = false;
 
-    $slides.removeClass('is-active');
-    $slides.eq(0).addClass('is-active');
+    $slides.removeClass('is-active is-zooming');
+    $slides.eq(0).addClass('is-active is-zooming');
 
     var $dotsWrap = $hero.children('.hero-dots');
     if (!$dotsWrap.length) {
@@ -230,13 +230,15 @@
       locked = true;
       loadSlideImages($slides.eq(index));
       loadSlideImages($slides.eq((index + 1) % total));
-      $slides.eq(current).removeClass('is-active');
-      $slides.eq(index).addClass('is-active');
+      var $outgoing = $slides.eq(current);
+      $outgoing.removeClass('is-active');
+      $slides.eq(index).addClass('is-active is-zooming');
       $dotsWrap.find('.hero-dot').removeClass('is-active').eq(index).addClass('is-active');
       current = index;
       $('.hero-content').removeClass('animated');
       animateHeroContent($slides.eq(index).find('.hero-content'));
       setTimeout(function () {
+        $outgoing.removeClass('is-zooming');
         locked = false;
       }, fadeMs || 50);
     }
