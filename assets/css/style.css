@@ -414,14 +414,16 @@ h6 {
   z-index: 2;
 }
 
-.hero-content h1 {
+.hero-content h1,
+.hero-content h2 {
   font-size: clamp(2rem, 6vw, 3.5rem);
   font-weight: 700;
   margin-bottom: 1rem;
   opacity: 0;
 }
 
-.hero-content h1 span {
+.hero-content h1 span,
+.hero-content h2 span {
   color: var(--accent);
 }
 
@@ -437,6 +439,7 @@ h6 {
 }
 
 .hero-content.animated h1,
+.hero-content.animated h2,
 .hero-content.animated p,
 .hero-content.animated .hero-btns {
   animation: fadeUp 0.8s ease forwards;

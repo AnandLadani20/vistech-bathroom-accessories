@@ -1,5 +1,5 @@
 /**
- * OM Steel Bath - Product Listing & Filtering
+ * Vistech Pvt. Ltd. - Product Listing & Filtering
  */
 (function ($) {
   'use strict';
@@ -26,7 +26,6 @@
             (collection ? '<div class="product-collection">' + collection + ' Series</div>' : '') +
             '<span class="product-series">Series: ' + product.series + '</span>' +
             '<h3 class="product-name"><a href="' + detailUrl + '">' + product.name + '</a></h3>' +
-            '<p class="product-price">' + product.price + '</p>' +
             '<a href="' + detailUrl + '" class="btn-luxury mt-2">View Details</a>' +
           '</div>' +
         '</article>' +
@@ -86,8 +85,6 @@
       collections.push($(this).val());
     });
     const seriesPrefix = $('input[name="filter-series"]:checked').val() || '';
-    const priceMin = parseInt($('#price-min').val(), 10) || 0;
-    const priceMax = parseInt($('#price-max').val(), 10) || 999999;
 
     filteredProducts = allProducts.filter(function (p) {
       const matchSearch =
@@ -104,10 +101,7 @@
 
       const matchSeries = matchSeriesFilter(p, seriesPrefix);
 
-      const price = p.priceValue || 0;
-      const matchPrice = price >= priceMin && price <= priceMax;
-
-      return matchSearch && matchCategory && matchCollection && matchSeries && matchPrice;
+      return matchSearch && matchCategory && matchCollection && matchSeries;
     });
 
     currentPage = 1;
@@ -240,15 +234,12 @@
 
     $('#product-search').on('input', debounce(applyFilters, 300));
     $(document).on('change', 'input[name="filter-category"], input[name="filter-collection"], input[name="filter-series"]', applyFilters);
-    $('#price-min, #price-max').on('change', applyFilters);
     $('#btn-apply-filters').on('click', applyFilters);
     $('#btn-reset-filters').on('click', function () {
       $('#product-search').val('');
       $('input[name="filter-category"]').prop('checked', false);
       $('input[name="filter-collection"]').prop('checked', false);
       $('input[name="filter-series"][value=""]').prop('checked', true);
-      $('#price-min').val('');
-      $('#price-max').val('');
       applyFilters();
     });
 
@@ -287,7 +278,6 @@
     if ($('#pd-collection').length && product.collection) {
       $('#pd-collection').text(product.collection + ' Collection');
     }
-    $('#pd-price').text(product.price);
     $('#pd-material').text(product.material);
     $('#pd-finish').text(product.finish);
     $('#pd-dimensions').text(product.dimensions);
@@ -369,7 +359,6 @@
               '<div class="product-body">' +
                 '<span class="product-series">' + p.series + '</span>' +
                 '<h3 class="product-name"><a href="product-details.html?id=' + p.id + '">' + p.name + '</a></h3>' +
-                '<p class="product-price">' + p.price + '</p>' +
               '</div>' +
             '</article>' +
           '</div>';
@@ -406,13 +395,8 @@
       description: product.description,
       image: product.image,
       brand: { '@type': 'Brand', name: 'Vistech' },
-      mpn: product.series,
-      offers: {
-        '@type': 'Offer',
-        priceCurrency: 'INR',
-        price: product.priceValue,
-        availability: 'https://schema.org/InStock'
-      }
+      manufacturer: { '@type': 'Organization', name: 'Vistech Pvt. Ltd.' },
+      mpn: product.series
     };
     const script = document.createElement('script');
     script.type = 'application/ld+json';
@@ -460,7 +444,6 @@
                 '<span class="feat-series">' + p.series + '</span>' +
               '</div>' +
               '<h3 class="feat-name"><a href="' + detailUrl + '">' + p.name + '</a></h3>' +
-              '<p class="feat-price">' + p.price + '</p>' +
             '</div>' +
           '</article>';
       });

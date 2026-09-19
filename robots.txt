@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.omsteelbath.com/sitemap.xml
-
-Disallow: /assets/js/
-Disallow: /*.json$
+Sitemap: https://www.vistechbath.com/sitemap.xml

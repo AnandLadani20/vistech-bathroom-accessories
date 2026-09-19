@@ -42,10 +42,6 @@
             '<div class="pc-collection">' + esc(p.collection || '') + ' Series</div>' +
             '<div class="pc-series" itemprop="sku">' + esc(p.series) + '</div>' +
             '<h3 class="pc-name" itemprop="name"><a href="' + url + '">' + esc(p.name) + '</a></h3>' +
-            '<p class="pc-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">' +
-              '<span itemprop="priceCurrency" content="INR"></span>' +
-              '<span itemprop="price">' + esc(p.price) + '</span>' +
-            '</p>' +
             '<a href="' + url + '" class="pc-action">View Details <i class="fas fa-arrow-right fa-xs"></i></a>' +
           '</div>' +
         '</article>' +

@@ -98,7 +98,8 @@
     max-width: 560px;
   }
 
-  .hero-content h1 {
+  .hero-content h1,
+.hero-content h2 {
     font-size: clamp(1.8rem, 5vw, 2.8rem);
   }
 
@@ -195,7 +196,8 @@
     width: calc(100% - 2.5rem);
   }
 
-  .hero-content h1 {
+  .hero-content h1,
+.hero-content h2 {
     font-size: clamp(1.6rem, 6vw, 2.2rem);
   }
 
@@ -249,7 +251,8 @@
     padding: 1.5rem;
   }
 
-  .hero-content h1 {
+  .hero-content h1,
+.hero-content h2 {
     font-size: clamp(1.4rem, 7vw, 1.9rem);
   }
 

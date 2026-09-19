@@ -1,4 +1,4 @@
-# Vistech by Shree Om Steel - Bathroom Accessories Website
+# Vistech Pvt. Ltd. - Bathroom Accessories Website
 
 Production-ready luxury bathroom accessories company website built with HTML5, CSS3, JavaScript, jQuery, Bootstrap 5, Slick Slider, AOS, Lightbox, and JSON-driven products.
 
@@ -38,7 +38,7 @@ Production-ready luxury bathroom accessories company website built with HTML5, C
 - **Brand colors**: Red `#e31e24`, black, white (from Vistech logo)
 - **PDFs**: Replace files in `assets/pdf/` (company profile from your catalogue is already linked)
 - **Contact**: Update phone, email, address in `contact.html` and footer
-- **Domain**: Replace `https://www.omsteelbath.com` in meta tags and `sitemap.xml`
+- **Domain**: `https://www.vistechbath.com` is used across meta tags and `sitemap.xml`
 
 ## Tech Stack
 

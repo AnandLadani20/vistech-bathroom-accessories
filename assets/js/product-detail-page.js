@@ -35,8 +35,67 @@
     document.body.classList.remove('loading');
   }
 
+  function setMeta(name, content) {
+    var el = document.querySelector('meta[name="' + name + '"]');
+    if (el) el.setAttribute('content', content);
+  }
+
+  function setOgMeta(property, content) {
+    var el = document.querySelector('meta[property="' + property + '"]');
+    if (el) el.setAttribute('content', content);
+  }
+
+  function updateSeoTags(product) {
+    var title = product.series + ' - ' + product.name + ' | Vistech Pvt. Ltd.';
+    document.title = title;
+
+    var description = product.description || (product.name + ' — Series ' + product.series + ' by Vistech Pvt. Ltd.');
+    setMeta('description', description);
+    setOgMeta('og:title', title);
+    setOgMeta('og:description', description);
+
+    var canonicalUrl = 'https://www.vistechbath.com/product-details.html?id=' + product.id;
+    var canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) canonical.setAttribute('href', canonicalUrl);
+    setOgMeta('og:url', canonicalUrl);
+
+    if (product.image) {
+      var absoluteImage = 'https://www.vistechbath.com/' + product.image.replace(/^\/+/, '');
+      setOgMeta('og:image', absoluteImage);
+    }
+
+    injectProductSchema(product, canonicalUrl);
+  }
+
+  function injectProductSchema(product, canonicalUrl) {
+    var existing = document.getElementById('product-schema');
+    if (existing) existing.remove();
+
+    var schema = {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: product.name,
+      sku: product.series,
+      mpn: product.series,
+      description: product.description || product.name,
+      image: product.image
+        ? 'https://www.vistechbath.com/' + product.image.replace(/^\/+/, '')
+        : undefined,
+      brand: { '@type': 'Brand', name: 'Vistech' },
+      manufacturer: { '@type': 'Organization', name: 'Vistech Pvt. Ltd.' },
+      category: product.category,
+      url: canonicalUrl
+    };
+
+    var script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'product-schema';
+    script.textContent = JSON.stringify(schema);
+    document.head.appendChild(script);
+  }
+
   function render(product) {
-    document.title = product.series + ' - ' + product.name + ' | Vistech';
+    updateSeoTags(product);
 
     var bc = $('breadcrumb-product-name');
     if (bc) bc.textContent = product.name;
@@ -46,7 +105,6 @@
 
     $('pd-series').textContent = 'Series: ' + product.series;
     $('pd-name').textContent = product.name;
-    $('pd-price').textContent = product.price;
     $('pd-material').textContent = product.material || '—';
     $('pd-finish').textContent = product.finish || '—';
     $('pd-dimensions').textContent = product.dimensions || '—';
@@ -191,7 +249,6 @@
               '<div class="product-body">' +
                 '<span class="product-series">Series: ' + escapeHtml(p.series) + '</span>' +
                 '<h3 class="product-name"><a href="' + url + '">' + escapeHtml(p.name) + '</a></h3>' +
-                '<p class="product-price">' + escapeHtml(p.price) + '</p>' +
               '</div>' +
             '</article>' +
           '</div>'
